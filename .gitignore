@@ -1,0 +1,11 @@
+# 采集器运行时产物，不进版本库。
+# 服务器上 run_hourly.sh 每小时 git add data docs 后提交，
+# 若这些运行时目录未忽略，git status 会一直是脏的，
+# 影响 pull --rebase --autostash 的可靠性。
+logs/
+__pycache__/
+*.pyc
+venv/
+.hourly.lock
+.wecom_webhook.json
+.hot-rank/

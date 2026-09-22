@@ -1,0 +1,84 @@
+name: 热点榜单采集（第三层兜底）
+
+# 第三层兜底采集。正常情况下用不到：
+#   第一层 = 远程开发机 crontab（每小时 50 分，7×24 稳定运行）
+#   第二层 = Mac 侧同步任务（发现断档时能从仓库补齐）
+#   第三层 = 这里，只在服务器整个挂掉时救命
+# 数据源 rree.cn 没有历史接口，错过的槽位永久丢失，所以宁可多跑也不能漏。
+#
+# ⚠️ Actions 的 cron 实测极不可靠：2026-09-20 设 0/20 分、改错峰 7/27/47 分，
+#    连续一整天 API 里查不到任何 event=schedule 的运行记录。别指望它。
+on:
+  schedule:
+    # 错峰到 57 分：既贴近服务器的 50 分槽位（同一小时档），又避开整点拥塞。
+    - cron: '57 * * * *'
+  workflow_dispatch:        # 支持手动触发，便于验证和补救
+
+concurrency:
+  group: collect            # 同一时刻只允许一个采集在跑
+  cancel-in-progress: false
+
+permissions:
+  contents: write           # 需要把采集结果 commit 回仓库
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25     # 数据源是流式慢响应，给足时间
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      # 批次时间戳必须钉到和服务器一致的槽位（每小时 50 分），否则同一小时
+      # 会出现 :00 和 :50 两个批次 —— 文档里就成了重复数据。
+      # 不设这个变量的话，src/main.py 会按 align_tolerance_minutes=60 对齐回整点。
+      - name: 确定批次槽位
+        env:
+          TZ: Asia/Shanghai
+        run: |
+          # Actions 可能延迟到下一个小时才跑，所以按「当前时刻属于哪个 50 分槽位」算：
+          # 分钟数 >= 50 用本小时的 :50，否则用上一小时的 :50。
+          if [ "$(date '+%-M')" -ge 50 ]; then
+            SLOT="$(date '+%Y-%m-%d %H:50:00')"
+          else
+            SLOT="$(date -d '1 hour ago' '+%Y-%m-%d %H:50:00')"
+          fi
+          echo "HOT_RANK_BATCH_TIME=$SLOT" >> "$GITHUB_ENV"
+          echo "本轮批次槽位：$SLOT"
+
+      - name: 采集
+        env:
+          TZ: Asia/Shanghai
+        run: python -m src.main
+
+      - name: 生成看板数据
+        env:
+          TZ: Asia/Shanghai
+        run: python gen_dashboard.py
+
+      - name: 提交数据
+        env:
+          TZ: Asia/Shanghai
+        run: |
+          git config user.name  "hot-rank-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/ docs/
+          if git diff --staged --quiet; then
+            echo "本轮无新数据（该槽位已采集过），跳过提交"
+            exit 0
+          fi
+          git commit -m "chore: 采集 $HOT_RANK_BATCH_TIME（Actions 兜底）"
+          # 并发或延迟重试时远端可能已有新提交，rebase 后再推
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            echo "推送失败，第 $i 次重试"
+            sleep 5
+          done
+          exit 1

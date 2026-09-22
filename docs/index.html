@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0052D9">
+  <meta name="description" content="全网热点雷达：每小时自动采集全网热点榜单 TOP3，实时监测内容脉搏。">
+  <title>全网热点雷达 · Hot Topics Radar</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%230052D9'/><path d='M15 52h12l8-26 12 52 9-32 6 6h23' stroke='white' stroke-width='7' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <style>
+    :root {
+      --blue: #0052d9;
+      --azure: #0a7cff;
+      --sky: #eaf5ff;
+      --mint: #35d0a2;
+      --mint-pale: #e7fbf5;
+      --orange: #ff8a45;
+      --orange-pale: #fff1e8;
+      --yellow: #ffd84d;
+      --ink: #10213a;
+      --muted: #607391;
+      --line: #cfe0f3;
+      --paper: #f7fbff;
+      --white: #fff;
+      --radius: 26px;
+      --shadow: 0 22px 70px rgba(29, 100, 176, .13);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      color: var(--ink);
+      background: var(--paper);
+      font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+    ::selection { background: rgba(0, 82, 217, .16); }
+    ::-webkit-scrollbar { width: 9px; }
+    ::-webkit-scrollbar-track { background: var(--paper); }
+    ::-webkit-scrollbar-thumb { background: #b9d2ee; border-radius: 99px; border: 2px solid var(--paper); }
+    ::-webkit-scrollbar-thumb:hover { background: var(--azure); }
+
+    /* ── 顶部导航 ─────────────────────────── */
+    .site-header {
+      position: sticky; z-index: 80; top: 0;
+      height: 72px; padding: 0 clamp(20px, 4vw, 72px);
+      display: flex; align-items: center; justify-content: space-between; gap: 20px;
+      background: rgba(255, 255, 255, .82);
+      backdrop-filter: blur(18px) saturate(1.5);
+      -webkit-backdrop-filter: blur(18px) saturate(1.5);
+      border-bottom: 1px solid rgba(0, 82, 217, .1);
+    }
+    .brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
+    .brand-mark {
+      width: 38px; aspect-ratio: 1; display: grid; place-items: center;
+      color: #fff; background: var(--blue); border-radius: 11px;
+      box-shadow: 0 10px 26px rgba(0, 82, 217, .28);
+      flex-shrink: 0;
+    }
+    .brand-mark svg { width: 22px; height: 22px; }
+    .brand-copy b { display: block; font-size: 15px; font-weight: 900; letter-spacing: .02em; }
+    .brand-copy small { display: block; margin-top: 1px; color: #7890b0; font: 800 9px/1 Arial, sans-serif; letter-spacing: .18em; }
+    .site-nav { display: flex; align-items: center; gap: 4px; }
+    .site-nav a {
+      display: grid; gap: 2px; padding: 9px 15px; border-radius: 11px;
+      text-decoration: none; color: var(--muted); font-size: 12px; font-weight: 700;
+      transition: background .2s ease, color .2s ease;
+    }
+    .site-nav a:hover { background: var(--sky); color: var(--blue); }
+    .site-nav a small { font: 800 8.5px/1 Arial, sans-serif; letter-spacing: .15em; color: #9db3cd; }
+    .header-meta { display: flex; align-items: center; gap: 14px; }
+    .live-pill {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 8px 15px; border-radius: 999px;
+      background: var(--mint-pale); border: 1px solid rgba(53, 208, 162, .4);
+      color: #0e8d6c; font: 900 10px/1 Arial, sans-serif; letter-spacing: .14em;
+    }
+    .live-pill i { width: 7px; height: 7px; border-radius: 50%; background: #17bd8f; animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(53,208,162,.5);} 50% { opacity: .55; box-shadow: 0 0 0 5px rgba(53,208,162,0);} }
+    .updated-at { color: var(--muted); font-size: 11px; font-weight: 700; }
+    .updated-at b { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+    /* ── HERO ─────────────────────────── */
+    .hero { position: relative; padding: clamp(56px, 8vw, 110px) clamp(24px, 4vw, 72px) clamp(150px, 17vw, 210px); overflow: hidden;
+      background:
+        radial-gradient(circle at 86% 8%, rgba(10, 124, 255, .07), transparent 40%),
+        radial-gradient(circle at 6% 90%, rgba(53, 208, 162, .07), transparent 36%);
+    }
+    .hero-shell { width: min(1420px, 100%); margin: 0 auto; position: relative; z-index: 2; }
+    .eyebrow { display: flex; align-items: center; gap: 24px; color: var(--blue); font: 800 11px/1 Arial, sans-serif; letter-spacing: .18em; }
+    .eyebrow span:last-child { color: #7890b0; }
+    .hero-ghost { margin: 30px 0 -18px; color: rgba(0, 82, 217, .075); font: 900 clamp(90px, 11vw, 190px)/.66 Arial, sans-serif; letter-spacing: -.09em; user-select: none; }
+    .hero h1 { margin: 0; font-size: clamp(44px, 5vw, 84px); line-height: 1.02; letter-spacing: -.055em; font-weight: 900; position: relative; z-index: 2; }
+    .hero h1 em { color: var(--blue); font-style: normal; }
+    .hero-lead { max-width: 640px; margin: 26px 0 0; color: #476281; font-size: clamp(14px, 1.1vw, 17px); line-height: 1.9; }
+    .hero-lead strong { color: var(--ink); }
+    .chips { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 24px; }
+    .chips span { padding: 8px 13px; border: 1px solid #c7dcf4; border-radius: 999px; color: #315a8e; background: rgba(255, 255, 255, .72); font-size: 11px; font-weight: 800; }
+    .hero-actions { display: flex; align-items: center; gap: 18px; margin-top: 30px; flex-wrap: wrap; }
+    .button { min-height: 46px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 0 22px; border: 0; border-radius: 13px; cursor: pointer; font-size: 12px; font-weight: 900; text-decoration: none; transition: transform .22s ease, background .22s ease; }
+    .button-primary { color: #fff; background: var(--blue); box-shadow: 0 12px 32px rgba(0, 82, 217, .23); }
+    .button-primary:hover { transform: translateY(-2px); background: #064bc2; }
+    .button-ghost { color: var(--blue); border: 1px solid rgba(0, 82, 217, .24); background: rgba(255, 255, 255, .72); backdrop-filter: blur(12px); }
+    .button-ghost:hover { transform: translateY(-2px); background: #fff; }
+    .hero-author { color: #6a7f9e; font-size: 11px; }
+
+    .metric-ribbon {
+      position: absolute; left: clamp(24px, 4vw, 72px); right: clamp(24px, 4vw, 72px); bottom: 26px;
+      display: grid; grid-template-columns: repeat(4, 1fr); overflow: hidden;
+      border: 1px solid rgba(0, 82, 217, .12); border-radius: 18px;
+      background: rgba(255, 255, 255, .78); backdrop-filter: blur(18px);
+      box-shadow: var(--shadow);
+    }
+    .metric-ribbon > div { min-height: 84px; display: flex; align-items: center; gap: 13px; padding: 16px clamp(14px, 2vw, 30px); border-right: 1px solid rgba(0, 82, 217, .1); }
+    .metric-ribbon > div:last-child { border-right: 0; }
+    .metric-ribbon strong { color: var(--blue); font: 900 clamp(24px, 2.4vw, 40px)/1 Arial, sans-serif; letter-spacing: -.05em; font-variant-numeric: tabular-nums; }
+    .metric-ribbon span { max-width: 120px; color: #5a7190; font-size: 11px; line-height: 1.4; }
+
+    /* ── MARQUEE ─────────────────────────── */
+    .marquee { overflow: hidden; color: #fff; background: var(--blue); border-top: 1px solid rgba(255,255,255,.15); border-bottom: 1px solid rgba(255,255,255,.15); }
+    .marquee div { width: max-content; padding: 15px 0; font: 900 12px/1 Arial, "Microsoft YaHei", sans-serif; letter-spacing: .14em; animation: marquee 40s linear infinite; white-space: nowrap; }
+    .marquee b { color: var(--yellow); margin: 0 6px; }
+    .marquee i { font-style: normal; opacity: .55; margin: 0 18px; }
+    @keyframes marquee { to { transform: translateX(-50%); } }
+
+    /* ── 主体 ─────────────────────────── */
+    .section { position: relative; padding: clamp(64px, 8vw, 120px) clamp(24px, 4vw, 72px); }
+    .section-shell { width: min(1420px, 100%); margin: 0 auto; }
+    .section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap; margin-bottom: 34px; }
+    .section-kicker { color: var(--blue); font: 800 11px/1 Arial, sans-serif; letter-spacing: .18em; margin-bottom: 12px; }
+    .section-title { font-size: clamp(28px, 3vw, 46px); font-weight: 900; letter-spacing: -.04em; line-height: 1.1; }
+    .section-title em { color: var(--blue); font-style: normal; }
+    .section-note { max-width: 380px; color: #6a7f9e; font-size: 12.5px; line-height: 1.8; }
+
+    .filters { display: flex; gap: 9px; flex-wrap: wrap; margin-bottom: 26px; }
+    .chip {
+      padding: 9px 16px; border: 1px solid #c7dcf4; border-radius: 999px;
+      color: #315a8e; background: rgba(255, 255, 255, .72);
+      font-size: 12px; font-weight: 800; cursor: pointer; user-select: none;
+      transition: all .2s ease;
+    }
+    .chip:hover { border-color: var(--azure); color: var(--blue); transform: translateY(-1px); }
+    .chip.active { background: var(--blue); border-color: var(--blue); color: #fff; box-shadow: 0 10px 24px rgba(0, 82, 217, .25); }
+
+    .board-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 22px; }
+    .board-card {
+      background: var(--white); border: 1px solid #dbe9f5; border-radius: var(--radius);
+      box-shadow: 0 16px 44px rgba(38, 100, 170, .08);
+      overflow: hidden; display: flex; flex-direction: column;
+      transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+      animation: rise .6s cubic-bezier(.2, .7, .3, 1) backwards;
+      animation-delay: calc(var(--i) * 50ms);
+    }
+    @keyframes rise { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
+    .board-card:hover { transform: translateY(-4px); box-shadow: 0 26px 66px rgba(29, 100, 176, .16); border-color: #b9d5f2; }
+    .board-head {
+      display: flex; align-items: center; gap: 13px;
+      padding: 18px 22px; border-bottom: 1px solid #e4eef8;
+      background: linear-gradient(105deg, var(--sky), #fff 62%, #f3fcf9);
+    }
+    .board-no {
+      width: 34px; height: 34px; display: grid; place-items: center;
+      border-radius: 10px; background: var(--white);
+      border: 1px solid #c9ddf2; color: var(--blue);
+      font: 900 12px/1 Arial, sans-serif; flex-shrink: 0;
+      box-shadow: 0 6px 16px rgba(45, 103, 162, .1);
+    }
+    .board-id { flex: 1; min-width: 0; }
+    .board-id b { display: block; font-size: 15px; font-weight: 900; letter-spacing: .01em; }
+    .board-id small { display: block; margin-top: 2px; color: #8da3b7; font: 800 8.5px/1 Arial, sans-serif; letter-spacing: .14em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .board-tag {
+      padding: 6px 11px; border-radius: 999px;
+      background: var(--white); border: 1px solid #c9ddf2;
+      color: #7290ad; font: 900 9px/1 Arial, sans-serif; letter-spacing: .12em;
+      flex-shrink: 0;
+    }
+    .board-list { list-style: none; padding: 8px 0; flex: 1; }
+    .board-list li { display: flex; gap: 13px; padding: 12px 22px; position: relative; }
+    .board-list li + li::before { content: ""; position: absolute; top: 0; left: 22px; right: 22px; border-top: 1px dashed #e6eef7; }
+    .board-list li:hover { background: rgba(234, 245, 255, .55); }
+    .rk {
+      width: 24px; height: 24px; margin-top: 1px; display: grid; place-items: center;
+      border-radius: 8px; font: 900 11px/1 Arial, sans-serif; flex-shrink: 0;
+    }
+    .rk1 { background: var(--orange-pale); color: #e06a1f; border: 1px solid rgba(255, 138, 69, .35); }
+    .rk2 { background: var(--sky); color: var(--azure); border: 1px solid rgba(10, 124, 255, .3); }
+    .rk3 { background: var(--mint-pale); color: #0e8d6c; border: 1px solid rgba(53, 208, 162, .35); }
+    .li-body { flex: 1; min-width: 0; }
+    .li-title {
+      font-size: 13.5px; font-weight: 700; line-height: 1.55; color: var(--ink);
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .li-meta { margin-top: 5px; display: flex; align-items: center; gap: 10px; }
+    .li-hot { color: var(--blue); font: 900 11px/1 Arial, sans-serif; letter-spacing: .03em; font-variant-numeric: tabular-nums; }
+    .li-hot.empty { color: #a8bacb; font-weight: 800; }
+    .li-hot::before { content: "▲ "; font-size: 8px; }
+
+    /* ── 底部 CTA + footer ─────────────────────────── */
+    .closing {
+      position: relative; overflow: hidden;
+      margin: 0 clamp(24px, 4vw, 72px); border-radius: var(--radius);
+      padding: clamp(48px, 6vw, 90px);
+      color: #eef6ff;
+      background: linear-gradient(132deg, #0052d9 0%, #1782ff 62%, #27bfc4 100%);
+      box-shadow: 0 34px 90px rgba(0, 82, 217, .22);
+      display: grid; gap: 18px;
+    }
+    .closing::before {
+      content: ""; position: absolute; inset: 0; opacity: .1; pointer-events: none;
+      background:
+        radial-gradient(circle at 80% 20%, rgba(255, 255, 255, .5), transparent 30%),
+        radial-gradient(circle at 15% 85%, rgba(53, 208, 162, .6), transparent 30%);
+    }
+    .closing .kicker { font: 800 11px/1 Arial, sans-serif; letter-spacing: .2em; color: #9fd3ff; }
+    .closing h2 { font-size: clamp(26px, 3.4vw, 52px); font-weight: 900; letter-spacing: -.04em; line-height: 1.12; }
+    .closing h2 em { font-style: normal; color: var(--yellow); }
+    .closing p { max-width: 560px; color: #c8dfff; font-size: 13.5px; line-height: 1.9; }
+    .closing .row { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 8px; }
+
+    .site-footer {
+      display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap;
+      padding: 34px clamp(24px, 4vw, 72px) 44px;
+      color: #6a7f9e; font: 800 11px/1.8 Arial, "Microsoft YaHei", sans-serif; letter-spacing: .08em;
+    }
+    .site-footer a { color: var(--blue); text-decoration: none; }
+    .site-footer a:hover { text-decoration: underline; }
+
+    /* ── 响应式 ─────────────────────────── */
+    @media (max-width: 960px) {
+      .site-nav { display: none; }
+      .metric-ribbon { grid-template-columns: repeat(2, 1fr); }
+      .metric-ribbon > div:nth-child(2) { border-right: 0; }
+      .metric-ribbon > div:nth-child(-n+2) { border-bottom: 1px solid rgba(0,82,217,.1); }
+      .hero { padding-bottom: 260px; }
+    }
+    @media (max-width: 640px) {
+      .updated-at { display: none; }
+      .board-grid { grid-template-columns: 1fr; }
+      .hero { padding-bottom: 300px; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="#top">
+    <span class="brand-mark">
+      <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M15 52h12l8-26 12 52 9-32 6 6h23"/></svg>
+    </span>
+    <span class="brand-copy">
+      <b>全网热点雷达</b>
+      <small>HOT TOPICS RADAR</small>
+    </span>
+  </a>
+  <nav class="site-nav">
+    <a href="#top"><span>总览</span><small>OVERVIEW</small></a>
+    <a href="#boards"><span>平台榜单</span><small>BOARDS</small></a>
+    <a href="#about"><span>数据说明</span><small>ABOUT</small></a>
+  </nav>
+  <div class="header-meta">
+    <div class="updated-at">更新于 <b id="updated-time">--:--:--</b></div>
+    <div class="live-pill"><i></i>LIVE</div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-shell">
+      <div class="eyebrow"><span>ALL-PLATFORM HOT TOPICS MONITOR</span><span>2026</span></div>
+      <p class="hero-ghost" aria-hidden="true">PULSE</p>
+      <h1>全网热点，<em>一小时一脉搏。</em></h1>
+      <p class="hero-lead">
+        <strong>每小时自动采集全网各平台热搜榜单 TOP3。</strong>
+        <span>微博、知乎、百度、抖音、B站……数据实时汇入腾讯文档，此看板为其可视化前端，供热点筛选与内容决策参考。</span>
+      </p>
+      <div class="chips" aria-label="数据能力标签">
+        <span>多平台聚合</span><span>每小时自动采集</span><span>热度值归一化</span><span>腾讯文档同步</span>
+      </div>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#boards">查看平台榜单 <span>↘</span></a>
+        <a class="button button-ghost" href="https://saas.docs.qq.com/sheet/DWndTR0V0U0t5RXhYemFGRGpK" target="_blank" rel="noopener">查看源数据表 ↗</a>
+        <span class="hero-author">数据源 · rree.cn 聚合平台</span>
+      </div>
+    </div>
+    <div class="metric-ribbon" aria-label="数据概览">
+      <div><strong id="stat-platforms">--</strong><span>监控平台数</span></div>
+      <div><strong id="stat-items">--</strong><span>在榜热点条数</span></div>
+      <div><strong>1h</strong><span>采集刷新频率</span></div>
+      <div><strong id="stat-batches">--</strong><span>累计采集批次</span></div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true"><div id="marquee-track">HOT TOPICS RADAR · LOADING</div></div>
+
+  <section class="section" id="boards">
+    <div class="section-shell">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">02 · PLATFORM BOARDS</p>
+          <h2 class="section-title">各平台 <em>TOP3 热点</em></h2>
+        </div>
+        <p class="section-note">按平台分组展示当前批次 TOP3 热点及其热度值；点击上方标签可快速筛选你关注的平台。</p>
+      </div>
+      <div class="filters" id="filters"></div>
+      <div class="board-grid" id="grid"></div>
+    </div>
+  </section>
+
+  <section class="closing" id="about">
+    <p class="kicker">03 · ABOUT THE DATA</p>
+    <h2>数据从哪里来，<em>到哪里去。</em></h2>
+    <p>本看板数据链路：rree.cn 热点聚合平台 → 每小时自动采集脚本（Python）→ 腾讯文档在线表格（历史全量存档）→ 本可视化看板。所有数据仅用于内部热点筛选参考，不对外公开。</p>
+    <div class="row">
+      <a class="button button-white" style="background:#fff;color:var(--blue)" href="https://saas.docs.qq.com/sheet/DWndTR0V0U0t5RXhYemFGRGpK" target="_blank" rel="noopener">打开源数据表 ↗</a>
+      <a class="button button-outline" style="border:1px solid rgba(255,255,255,.55);color:#fff" href="#top">回到顶部 ↺</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div>HOT TOPICS RADAR · POWERED BY WORKBUDDY PIPELINE</div>
+  <div><a href="https://rree.cn/" target="_blank" rel="noopener">DATA SOURCE · RREE.CN</a> · <a href="https://saas.docs.qq.com/sheet/DWndTR0V0U0t5RXhYemFGRGpK" target="_blank" rel="noopener">TENCENT DOCS</a></div>
+</footer>
+
+<script>
+const EN_NAMES = {
+  "微博": "WEIBO HOT SEARCH", "知乎": "ZHIHU HOT LIST", "百度": "BAIDU HOT",
+  "抖音": "DOUYIN HOT", "B站": "BILIBILI RANK", "今日头条": "TOUTIAO HOT",
+  "腾讯新闻": "TENCENT NEWS", "腾讯新闻精选": "TENCENT NEWS SELECT", "快手热榜": "KUAISHOU HOT",
+  "网易新闻": "NETEASE NEWS", "澎湃新闻": "THE PAPER", "IT之家·资讯热榜": "ITHOME HOT",
+  "IT之家·资讯最新": "ITHOME LATEST", "豆瓣电影": "DOUBAN FILM", "豆瓣小组": "DOUBAN GROUP",
+  "虎扑·步行街热帖": "HUPU STREET", "吾爱破解": "52POJIE", "36氪": "36KR FLASH",
+  "CSDN": "CSDN BLOG", "51CTO": "51CTO TECH", "掘金·文章综合榜": "JUEJIN RANK",
+  " AcFun综合榜": "ACFUN RANK", "360搜索": "360 SEARCH", "360电影": "360 FILM",
+  "360电视剧": "360 TV", "360短视频": "360 SHORT VIDEO", "百度小说": "BAIDU NOVEL",
+  "百度游戏榜": "BAIDU GAME", "百度电影": "BAIDU FILM", "百度电视剧": "BAIDU TV",
+  "携程·推荐游记": "CTrip TRAVEL", "数字尾巴": "DIGITALTAIL", "果壳热门榜": "GUOKR POP"
+};
+
+const FALLBACK_DATA = {
+  "updated_at": "2026-09-19 12:56:58",
+  "platforms": [
+    {"name": "微博", "items": [
+      {"rank": 1, "title": "女装到底怎么了", "hot_value": 1090000},
+      {"rank": 2, "title": "问界M7车主称从华为亲儿子变东风小康", "hot_value": 1070000},
+      {"rank": 3, "title": "2026亚运会今天开幕", "hot_value": 640000}]},
+    {"name": "知乎", "items": [
+      {"rank": 1, "title": "泰国方面吐槽亚运会「选手在官方餐厅吃不饱」", "hot_value": 6630000},
+      {"rank": 2, "title": "中国男篮 77-97 不敌日本男篮无缘决赛", "hot_value": 6150000},
+      {"rank": 3, "title": "如何解读住建部「4楼及以上住宅都要加装电梯」", "hot_value": 5460000}]},
+    {"name": "百度", "items": [
+      {"rank": 1, "title": "扎实推进先进制造业高质量发展", "hot_value": 7900000},
+      {"rank": 2, "title": "错换人生28年当事人姚策生父去世", "hot_value": 7810000},
+      {"rank": 3, "title": "轿车在高铁站停了近7年 车主回应", "hot_value": 7710000}]},
+    {"name": "抖音", "items": [
+      {"rank": 1, "title": "沙特首都利雅得遭空袭", "hot_value": 12100000},
+      {"rank": 2, "title": "来大理追一场会游动的洱海星河", "hot_value": 11730000},
+      {"rank": 3, "title": "以好房助安居", "hot_value": 11270000}]},
+    {"name": "B站", "items": [
+      {"rank": 1, "title": "韩立李缨宁相认", "hot_value": null},
+      {"rank": 2, "title": "DC中国官方来B站了", "hot_value": null},
+      {"rank": 3, "title": "裁判是如何执法比赛", "hot_value": null}]},
+    {"name": "今日头条", "items": [
+      {"rank": 1, "title": "饮用水报告：72%成年人未达适宜摄入量", "hot_value": 28700000},
+      {"rank": 2, "title": "上5休1上5休3上3休7上3休1", "hot_value": 25970000},
+      {"rank": 3, "title": "推动健康中国建设取得决定性进展", "hot_value": 23500000}]},
+    {"name": "腾讯新闻", "items": [
+      {"rank": 1, "title": "习近平总书记关切事", "hot_value": 570000},
+      {"rank": 2, "title": "何立峰将率团赴美与美方举行经贸磋商", "hot_value": 2510000},
+      {"rank": 3, "title": "陕西发现秦王级大墓", "hot_value": 2300000}]},
+    {"name": "快手热榜", "items": [
+      {"rank": 1, "title": "金砖之约共绘全球南方新图景", "hot_value": 0},
+      {"rank": 2, "title": "国务院对青岛船厂火灾提级调查", "hot_value": 12312000},
+      {"rank": 3, "title": "今年最后一次金星伴月", "hot_value": 12307000}]},
+    {"name": "网易新闻", "items": [
+      {"rank": 1, "title": "意甲精彩一夜！2-1，2-0，5-3！", "hot_value": null},
+      {"rank": 2, "title": "罗德里：决定加盟巴萨后我给穆帅打了电话", "hot_value": null},
+      {"rank": 3, "title": "国米踢疯了！5-3逆转+意甲4连胜", "hot_value": null}]},
+    {"name": "澎湃新闻", "items": [
+      {"rank": 1, "title": "游客在距离市区约30公里的泸州东站下车后建议更改站名", "hot_value": null},
+      {"rank": 2, "title": "「泸州东」不在泸州市区？你还遇到过哪些高铁站", "hot_value": null},
+      {"rank": 3, "title": "超30家药企长期行贿，涉案1.84亿", "hot_value": null}]},
+    {"name": "IT之家·资讯热榜", "items": [
+      {"rank": 1, "title": "消息称多家大厂派开发人员赴苹果总部适配 iPhone Duo", "hot_value": null},
+      {"rank": 2, "title": "消息称苹果 iPhone 18 Pro 预售开启后出现「信用卡盗刷潮」", "hot_value": null},
+      {"rank": 3, "title": "消息称苹果调整门店规则：提前 5 分钟开门", "hot_value": null}]},
+    {"name": "豆瓣电影", "items": [
+      {"rank": 1, "title": "求救信号", "hot_value": 7},
+      {"rank": 2, "title": "夜王", "hot_value": 7},
+      {"rank": 3, "title": "激情邀约", "hot_value": 7}]}
+  ]
+};
+
+function formatHot(v) {
+  if (v === null || v === undefined || v === "") return null;
+  if (v >= 100000000) return (v / 100000000).toFixed(1) + "亿";
+  if (v >= 10000) return (v / 10000).toFixed(1) + "w";
+  if (v >= 1000) return (v / 1000).toFixed(1) + "k";
+  return String(v);
+}
+
+let DATA = FALLBACK_DATA;
+let activeFilter = "全部";
+
+function render() {
+  const grid = document.getElementById("grid");
+  const filters = document.getElementById("filters");
+
+  const totalItems = DATA.platforms.reduce((s, p) => s + p.items.length, 0);
+  document.getElementById("stat-platforms").textContent = DATA.platforms.length;
+  document.getElementById("stat-items").textContent = totalItems;
+  document.getElementById("stat-batches").textContent = (DATA.total_batches || "—");
+  document.getElementById("updated-time").textContent = DATA.updated_at || "--";
+
+  const names = ["全部", ...DATA.platforms.map(p => p.name)];
+  filters.innerHTML = names.map(n =>
+    `<div class="chip ${n === activeFilter ? "active" : ""}" data-name="${n}">${n}</div>`).join("");
+
+  const shown = activeFilter === "全部" ? DATA.platforms : DATA.platforms.filter(p => p.name === activeFilter);
+
+  grid.innerHTML = shown.map((p, i) => {
+    const en = EN_NAMES[p.name.trim()] || "HOT BOARD";
+    const items = p.items.map(it => {
+      const hot = formatHot(it.hot_value);
+      return `
+      <li>
+        <i class="rk rk${it.rank}">${it.rank}</i>
+        <div class="li-body">
+          <p class="li-title">${it.title}</p>
+          <div class="li-meta">${hot !== null ? `<span class="li-hot">${hot}</span>` : `<span class="li-hot empty">热度暂无</span>`}</div>
+        </div>
+      </li>`;
+    }).join("");
+    return `
+      <article class="board-card" style="--i:${i}">
+        <header class="board-head">
+          <span class="board-no">${String(i + 1).padStart(2, "0")}</span>
+          <div class="board-id"><b>${p.name}</b><small>${en}</small></div>
+          <span class="board-tag">TOP ${p.items.length}</span>
+        </header>
+        <ol class="board-list">${items}</ol>
+      </article>`;
+  }).join("");
+
+  filters.querySelectorAll(".chip").forEach(c => {
+    c.onclick = () => { activeFilter = c.dataset.name; render(); };
+  });
+
+  // marquee：滚动展示各平台 TOP1
+  const track = document.getElementById("marquee-track");
+  const top1s = DATA.platforms.map(p => {
+    const t = p.items[0];
+    return t ? `${p.name}<i>·</i><b>TOP1</b>${t.title}` : "";
+  }).filter(Boolean).join('<i>◆</i>');
+  track.innerHTML = (top1s + '<i>◆</i>').repeat(2);
+}
+
+async function boot() {
+  try {
+    const res = await fetch("./data.json", { cache: "no-store" });
+    if (res.ok) DATA = await res.json();
+  } catch (e) { /* 使用内嵌数据 */ }
+  render();
+}
+boot();
+</script>
+</body>
+</html>

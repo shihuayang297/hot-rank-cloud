@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>腾讯文档授权回调</title>
+<!--
+  腾讯文档开放平台 OAuth 回调页。
+
+  为什么需要它：申请第三方应用时必须登记一个回调域名（redirect_uri），
+  而这套系统没有公网 Web 服务器 —— 采集服务器是内网 IP（21.x），进不来。
+  GitHub Pages 正好是我们已有的、真正的公网 HTTPS 地址，拿它当回调地址，
+  授权成功后腾讯文档会带着 ?code=xxx 跳到这里。
+
+  这个页面不做任何网络请求，只把地址栏里的 code 取出来显示 —— 纯静态，
+  code 不会发送到任何第三方。拿到 code 后 10 分钟内用它换 token（只能用一次）。
+
+  登记回调地址时填：https://shihuayang297.github.io/hot-rank-cloud/oauth-callback.html
+-->
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    background: #f5f6f8; padding: 24px;
+    font: 15px/1.7 -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: #1f2329;
+  }
+  .card {
+    background: #fff; border-radius: 14px; padding: 32px; max-width: 620px; width: 100%;
+    box-shadow: 0 2px 20px rgba(0,0,0,.07); border: 1px solid #e8eaed;
+  }
+  h1 { font-size: 19px; margin: 0 0 6px; }
+  .sub { color: #646a73; font-size: 13px; margin-bottom: 22px; }
+  .label { font-size: 12px; color: #646a73; letter-spacing: .04em; margin-bottom: 8px; }
+  .code {
+    font: 13px/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    background: #f2f3f5; border: 1px solid #e0e2e6; border-radius: 8px;
+    padding: 14px 16px; word-break: break-all; user-select: all; min-height: 52px;
+  }
+  .ok  { border-color: #b7e3c6; background: #f0faf3; }
+  .bad { border-color: #f0c8c8; background: #fdf3f3; color: #a8323c; }
+  button {
+    margin-top: 14px; padding: 9px 18px; font-size: 14px; cursor: pointer;
+    background: #1f6feb; color: #fff; border: 0; border-radius: 7px;
+  }
+  button:hover { background: #1a5fd0; }
+  button:disabled { background: #8fb4f0; cursor: default; }
+  .tip { margin-top: 22px; padding-top: 18px; border-top: 1px solid #eef0f2; font-size: 13px; color: #646a73; }
+  .tip b { color: #1f2329; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>腾讯文档授权回调</h1>
+  <div class="sub">把下面这串授权码复制给助手，用来换取服务器的长期访问令牌。</div>
+
+  <div class="label">AUTHORIZATION CODE</div>
+  <div id="code" class="code">读取中…</div>
+  <button id="copy" disabled>复制授权码</button>
+
+  <div class="tip">
+    <b>授权码 10 分钟内有效，且只能使用一次。</b>
+    过期就回到授权链接重新点一次即可。<br>
+    本页是纯静态页面，不会把授权码发送到任何服务器。
+  </div>
+</div>
+
+<script>
+(function () {
+  var box = document.getElementById('code');
+  var btn = document.getElementById('copy');
+  var p = new URLSearchParams(location.search);
+  var code = p.get('code');
+  var err = p.get('error') || p.get('error_description');
+
+  if (code) {
+    box.textContent = code;
+    box.className = 'code ok';
+    btn.disabled = false;
+    btn.onclick = function () {
+      // navigator.clipboard 在非安全上下文会不可用，降级到选中文本
+      var done = function () { btn.textContent = '已复制 ✓'; setTimeout(function(){ btn.textContent = '复制授权码'; }, 1800); };
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(code).then(done, fallback);
+      } else { fallback(); }
+      function fallback() {
+        var r = document.createRange(); r.selectNodeContents(box);
+        var s = getSelection(); s.removeAllRanges(); s.addRange(r);
+        try { document.execCommand('copy'); done(); } catch (e) { btn.textContent = '请手动选中复制'; }
+      }
+    };
+  } else if (err) {
+    box.textContent = '授权失败：' + err;
+    box.className = 'code bad';
+  } else {
+    box.textContent = '地址栏里没有 code 参数。请从授权链接进入，不要直接打开本页。';
+    box.className = 'code bad';
+  }
+})();
+</script>
+</body>
+</html>
