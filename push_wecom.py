@@ -57,11 +57,15 @@ TOP_N = 3
 
 STATE_FILE = ".wecom_pushed"
 
-# 免打扰时段：只在 09:00 ~ 21:00 推，其余时间（含深夜和清晨）一律跳过。
-# 用**批次时间**判断而不是「现在几点」：服务器偶发延迟也不会把 20:50 的批次拖到 21:05 还推。
-# [START, END) 左闭右开：21 点档本身就是 21:50 采的，不在窗口内，符合「晚上九点后不推」。
-PUSH_START_HOUR = int(os.environ.get("WECOM_PUSH_START_HOUR", 9))
-PUSH_END_HOUR = int(os.environ.get("WECOM_PUSH_END_HOUR", 21))
+# 每条末尾固定的汇总页入口（用户要求：群里直接可点，不用再翻文档/看板链接）。
+# 放在**每一片**而不是只放最后一片：分两条时，只看第一条的人也要能点到入口。
+FOOT_LINE = "\n> 热榜汇总页：https://rree.cn/"
+
+# 免打扰时段：只在 07:00 ~ 23:00 推（**两端都含**），深夜和清晨不打扰人。
+# 用**批次时间**判断而不是「现在几点」：服务器偶发延迟也不会把 23 点的批次拖到 00:05 还推。
+# 端点语义是「最后一个会推的小时」，所以 23 表示 23 点档照推、0 点档起免打扰。
+PUSH_START_HOUR = int(os.environ.get("WECOM_PUSH_START_HOUR", 7))
+PUSH_END_HOUR = int(os.environ.get("WECOM_PUSH_END_HOUR", 23))
 
 
 # ---------------- 配置与数据源 ----------------
@@ -197,17 +201,22 @@ def build_chunks(stamp: str, groups: list) -> list:
             lines.append("{}. {}".format(i, clean(r.get("title"))))
         blocks.append("\n".join(lines))
 
+    # 脚注占的字节要提前预留，否则加了脚注才发现超上限
+    room = MAX_BYTES - len(FOOT_LINE.encode("utf-8"))
+
     # 即使单平台超长（几乎不可能）也要保证它自己成条，宁可超一点也不能截断标题
     chunks, cur = [], ""
     for b in blocks:
         cand = (cur + "\n" + b) if cur else (head + b)
-        if cur and len(cand.encode("utf-8")) > MAX_BYTES:
+        if cur and len(cand.encode("utf-8")) > room:
             chunks.append(cur)
             cur = head + b
         else:
             cur = cand
     if cur:
         chunks.append(cur)
+
+    chunks = [c + FOOT_LINE for c in chunks]
 
     if len(chunks) > 1:
         chunks = [c.replace(head_plain,
@@ -217,10 +226,10 @@ def build_chunks(stamp: str, groups: list) -> list:
 
 
 def in_push_window(stamp: str) -> bool:
-    """判断该批次是不是在允许推送的时段（09:00~21:00）。
+    """判断该批次是不是在允许推送的时段（07:00~23:00，**两端都含**）。
 
     用批次时间戳的小时数判断，而不是「现在几点」——服务器偶尔延迟几分钟，
-    20:50 的批次拖到 21:0x 才跑完也不该在夜里把人吵醒，反之亦然。
+    23 点的批次拖到 00:0x 才跑完也不该在夜里把人吵醒，反之亦然。
     解析不出来就**放行**（宁可多推一条，也别因为格式问题整条链路静默失效）。
     """
     m = re.search(r"(\d{2}):\d{2}", stamp or "")
@@ -228,8 +237,8 @@ def in_push_window(stamp: str) -> bool:
         return True
     hour = int(m.group(1))
     if PUSH_START_HOUR <= PUSH_END_HOUR:
-        return PUSH_START_HOUR <= hour < PUSH_END_HOUR
-    return hour >= PUSH_START_HOUR or hour < PUSH_END_HOUR   # 跨零点的情况
+        return PUSH_START_HOUR <= hour <= PUSH_END_HOUR
+    return hour >= PUSH_START_HOUR or hour <= PUSH_END_HOUR   # 跨零点的情况
 
 
 def already_pushed(stamp: str, state_path: str) -> bool:
@@ -316,7 +325,8 @@ def main() -> int:
 
     if quiet:
         # 免打扰不算故障，返回 0，别让整轮采集判失败
-        print(json.dumps({"status": "skipped", "reason": "非推送时段（{}:00~{}:00 之外）".format(
+        print(json.dumps({"status": "skipped",
+                          "reason": "非推送时段（只在 {:02d}:00~{:02d}:00 推）".format(
                               PUSH_START_HOUR, PUSH_END_HOUR),
                           "batch": stamp}, ensure_ascii=False))
         return 0

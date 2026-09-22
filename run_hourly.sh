@@ -31,28 +31,19 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 export HOME="${HOME:-/root}"
 
 # ========== 采集槽位 ==========
-# 2026-09-21 起采集时刻从整点改为**每小时 50 分**（用户要求）：
-# 数据在整点前就写进文档和看板，企微 bot 卡 xx:00 推送时群里拿到的是刚出炉的批次。
-# 改这里必须同步改 crontab（50 * * * *）和 check_gaps.py 的 SLOT_MINUTES，
+# 2026-09-22 起采集时刻改回**整点**（用户要求「每个整点推送一次」）：
+# 采完立刻推，群里拿到的就是刚出炉的整点榜单，而不是 10 分钟前那批。
+# 改这里必须同步改 crontab（0 * * * *）和 check_gaps.py 的槽位判断，
 # 三处对不上会导致缺口误报（tests/test_slot_minute.py 锁着）。
-BATCH_MINUTE="50"
+BATCH_MINUTE="00"
 
-# ⚠️ 不能简单写 date '+%H:50:00'：在 xx:00~xx:49 之间触发会得到**未来时刻**
-#    （17:07 跑却标成 17:50）。而兜底补采（check_server.py）正是在任意时刻调用
-#    本脚本的，一旦打上未来标签，真正 17:50 的 cron 会被 already_collected()
-#    幂等跳过 —— 等于用 17:07 的热榜冒充 17:50，静默数据失真。
-#    2026-09-21 改 50 分时引入，同日发现并修掉。
+# 槽位时间戳**绝不能是未来时刻**：一旦打上未来标签，真正到点的 cron 会被
+# already_collected() 幂等跳过 —— 等于用补采时刻的热榜冒充整点且静默不报错。
+# 整点档天然安全：当前小时的 00 分必然已经过去（最早也是「此刻」），
+# 不像 50 分档那样在 xx:00~xx:49 触发会得到未来值。
+# 兜底补采（check_server.py 在任意时刻调 --slot）因此也永远拿到正确的当前档。
 current_slot() {
-    local m
-    m=$(date '+%-M')
-    if [ "$m" -ge "$BATCH_MINUTE" ]; then
-        date "+%Y-%m-%d %H:${BATCH_MINUTE}:00"
-    else
-        # 还没到本小时的槽位 -> 归属上一小时
-        # （GNU date 优先，macOS 语法兜底，便于在本机自测这个函数）
-        date -d '1 hour ago' "+%Y-%m-%d %H:${BATCH_MINUTE}:00" 2>/dev/null \
-            || date -v-1H "+%Y-%m-%d %H:${BATCH_MINUTE}:00"
-    fi
+    date "+%Y-%m-%d %H:${BATCH_MINUTE}:00"
 }
 
 # 供 check_server.py 等外部脚本取槽位用 —— 单一实现，避免各处算法漂移。
