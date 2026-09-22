@@ -570,12 +570,18 @@ def main() -> int:
                         "start_row": next_row, "end_row": next_row + n - 1})
         next_row += n
 
-    # 抽验：回读最后 2 行，确认 crawl_time 是本次最后一批
+    # 抽验：回读最后 2 行，确认批次时间就是本次最后一批。
+    # ⚠️ 必须用 row_stamp() 拼 D+E 两列，不能直接比 r[3]：
+    # 6 列结构里第 4 列只是「爬取日期」（2026-09-22），完整时间戳在 D+E，
+    # 拿日期去比 "2026-09-22 15:00:00" 永远不等 —— 2026-09-22 拆列后
+    # verified 恒为 false，校验形同虚设（真写错时也没人再当回事）。
     verified = None
     if not args.dry_run and written:
         try:
-            tail = read_range(cred, f"A{next_row - 2}:E{next_row - 1}")
-            verified = all(len(r) > 3 and r[3] == stamps[-1] for r in tail if any(r))
+            tail = read_range(cred, f"A{next_row - 2}:{LAST_COL}{next_row - 1}")
+            filled = [r for r in tail if any(r)]
+            verified = bool(filled) and all(
+                row_stamp(r) == stamps[-1] for r in filled)
         except RuntimeError:
             verified = None
 
