@@ -7,5 +7,11 @@ __pycache__/
 *.pyc
 venv/
 .hourly.lock
+
+# ⚠️ 群机器人 webhook 密钥。仓库是 public（Pages 免费版只能挂公开仓库），
+# 写进来 = 任何人都能从 raw.githubusercontent.com 读到机器人地址并往群里发消息。
+# 2026-09-22 真出过一次，最后靠轮换机器人解决。密钥只在服务器/本机磁盘上，
+# 由 deploy_server.sh 单独 scp，不进仓库。
 .wecom_webhook.json
 .hot-rank/
+*.token.json
