@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-24 05:00:00",
- "total_batches": 112,
+ "updated_at": "2026-09-24 06:00:00",
+ "total_batches": 113,
  "platforms": [
   {
    "name": "36氪",
@@ -47,7 +47,7 @@
    "items": [
     {
      "rank": 1,
-     "title": "习近平离京对美国进行国事访问",
+     "title": "习近平抵达华盛顿对美国进行国事访问",
      "hot_value": null
     },
     {
@@ -107,18 +107,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "花少2搬箱子楼梯实际长这样",
-     "hot_value": 150000
+     "title": "特朗普抵达机场",
+     "hot_value": 250000
     },
     {
      "rank": 2,
      "title": "降压疫苗要来了",
-     "hot_value": 80000
+     "hot_value": 170000
     },
     {
      "rank": 3,
      "title": "中国天眼实现一批原创突破",
-     "hot_value": 60000
+     "hot_value": 140000
     }
    ]
   },
@@ -147,18 +147,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "习近平离京对美国进行国事访问",
-     "hot_value": 12080000
+     "title": "习近平抵达美国首都华盛顿",
+     "hot_value": 12100000
     },
     {
      "rank": 2,
      "title": "中美元首半年内实现互访",
-     "hot_value": 11400000
+     "hot_value": 12040000
     },
     {
      "rank": 3,
      "title": "第五届数贸会亮点抢先看",
-     "hot_value": 11380000
+     "hot_value": 11980000
     }
    ]
   },
@@ -252,12 +252,12 @@
     },
     {
      "rank": 2,
-     "title": "习近平离京对美国进行国事访问",
+     "title": "习近平抵达华盛顿",
      "hot_value": 7810000
     },
     {
      "rank": 3,
-     "title": "打一针管数月的降压疫苗要来了",
+     "title": "特朗普抵达机场 迎接习近平主席到访",
      "hot_value": 7710000
     }
    ]
@@ -267,18 +267,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "华人藏家花费 2400 万元追回疑似圆明园龙首，此事具有哪些意义？",
-     "hot_value": 2480000
+     "title": "怎么看 DeepSeek 的梁文锋署名的Agent 训练论文 DSec？",
+     "hot_value": 1850000
     },
     {
      "rank": 2,
-     "title": "怎么看 DeepSeek 的梁文锋署名的Agent 训练论文 DSec？",
-     "hot_value": 1890000
+     "title": "华人藏家花费 2400 万元追回疑似圆明园龙首，此事具有哪些意义？",
+     "hot_value": 1850000
     },
     {
      "rank": 3,
      "title": "腾讯放弃AI元宝全力押注WorkBuddy，这次战略转型算成功吗？",
-     "hot_value": 1400000
+     "hot_value": 1380000
     }
    ]
   },
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "推动中美关系大船平稳前行",
-     "hot_value": 2050000
+     "hot_value": 2030000
     },
     {
      "rank": 3,
      "title": "中国体操女团14连冠",
-     "hot_value": 1850000
+     "hot_value": 1820000
     }
    ]
   },
@@ -327,17 +327,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "伊朗总统联大演讲展示哈梅内伊和被炸小学照片，美国代表离场",
+     "title": "大国外交进行时｜习近平抵达华盛顿对美国进行国事访问",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "百万粉丝网红被抓，铁拳砸向网络恶霸",
+     "title": "大国外交进行时丨特朗普总统抵达机场 迎接习近平主席到访",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "一个月两次，国务院常务会议聚焦人口结构新变化",
+     "title": "新任西藏自治区党委书记胡昌升，看望慰问帕巴拉·格列朗杰等老同志",
      "hot_value": null
     }
    ]
