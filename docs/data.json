@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-24 08:00:00",
- "total_batches": 116,
+ "updated_at": "2026-09-24 09:00:00",
+ "total_batches": 117,
  "platforms": [
   {
    "name": "36氪",
@@ -52,12 +52,12 @@
     },
     {
      "rank": 2,
-     "title": "张展硕200米自由泳破纪录夺冠",
+     "title": "暴雨高温来了",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "宋雨琦入驻B站",
+     "title": "中美元首半年内实现国事互访",
      "hot_value": null
     }
    ]
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "中美元首半年内实现国事互访",
-     "hot_value": 1240000
+     "hot_value": 1100000
     },
     {
      "rank": 2,
      "title": "中美元首华盛顿会晤",
-     "hot_value": 1150000
+     "hot_value": 1000000
     },
     {
      "rank": 3,
      "title": "一张物流网跑出中国加速度",
-     "hot_value": 1020000
+     "hot_value": 640000
     }
    ]
   },
@@ -148,17 +148,17 @@
     {
      "rank": 1,
      "title": "习近平抵达美国首都华盛顿",
-     "hot_value": 12500000
+     "hot_value": 12880000
     },
     {
      "rank": 2,
      "title": "中美元首半年内实现互访",
-     "hot_value": 12030000
+     "hot_value": 12010000
     },
     {
      "rank": 3,
      "title": "第五届数贸会亮点抢先看",
-     "hot_value": 11970000
+     "hot_value": 11590000
     }
    ]
   },
@@ -257,7 +257,7 @@
     },
     {
      "rank": 3,
-     "title": "特朗普夫妇机场迎接",
+     "title": "习近平：中国和美国都是伟大的国家",
      "hot_value": 7710000
     }
    ]
@@ -267,18 +267,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "腾讯放弃AI元宝全力押注WorkBuddy，这次战略转型算成功吗？",
-     "hot_value": 1900000
+     "title": "腾讯 AI 放弃元宝，全力押注 WorkBuddy 了吗？这次战略转型算成功吗？",
+     "hot_value": 2730000
     },
     {
      "rank": 2,
      "title": "央视解说吐槽「想格斗可以别的项目报名」，如何评价亚运男足中国vs阿联酋下半场对手和裁判的表现？",
-     "hot_value": 1410000
+     "hot_value": 2350000
     },
     {
      "rank": 3,
      "title": "领导只口头安排工作，不肯留下文字记录，经常临时变卦，这种情况只能硬刚吗？",
-     "hot_value": 1240000
+     "hot_value": 1430000
     }
    ]
   },
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "习近平开始对美国进行国事访问",
-     "hot_value": 1980000
+     "hot_value": 2010000
     },
     {
      "rank": 3,
      "title": "双一流高校还将扩招7.6万人",
-     "hot_value": 1770000
+     "hot_value": 1800000
     }
    ]
   },
