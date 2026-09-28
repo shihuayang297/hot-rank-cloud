@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-28 11:00:00",
- "total_batches": 237,
+ "updated_at": "2026-09-28 12:00:00",
+ "total_batches": 238,
  "platforms": [
   {
    "name": "36氪",
@@ -47,17 +47,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "电竞项目将退出亚运会",
-     "hot_value": null
-    },
-    {
-     "rank": 2,
      "title": "AL英雄联盟LPL夺冠纪录片",
      "hot_value": null
     },
     {
-     "rank": 3,
+     "rank": 2,
      "title": "今年有哪些热梗火了",
+     "hot_value": null
+    },
+    {
+     "rank": 3,
+     "title": "0.2毫米 选手与世界冠军的距离",
      "hot_value": null
     }
    ]
@@ -107,18 +107,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "王楚钦 男单",
-     "hot_value": 1500000
+     "title": "作者吐槽自己写的小说被拍成短剧",
+     "hot_value": 1120000
     },
     {
      "rank": 2,
-     "title": "张雪团队被盗6个包破案无进展",
-     "hot_value": 920000
+     "title": "王者亚运中国队全胜进决赛",
+     "hot_value": 810000
     },
     {
      "rank": 3,
      "title": "70万人点赞的跨国情谊",
-     "hot_value": 700000
+     "hot_value": 640000
     }
    ]
   },
@@ -148,17 +148,17 @@
     {
      "rank": 1,
      "title": "商务部解读第八轮中美经贸磋商成果",
-     "hot_value": 11470000
+     "hot_value": 11840000
     },
     {
      "rank": 2,
      "title": "9月30号国庆前最后一天belike",
-     "hot_value": 11450000
+     "hot_value": 11340000
     },
     {
      "rank": 3,
      "title": "大熊猫 “平平”“福双”抵达美国",
-     "hot_value": 11160000
+     "hot_value": 11330000
     }
    ]
   },
@@ -257,7 +257,7 @@
     },
     {
      "rank": 3,
-     "title": "“日本选手现役亚洲第1 但我是冠军”",
+     "title": "亚运会大冷门 凤凰组合无缘决赛",
      "hot_value": 7710000
     }
    ]
@@ -268,12 +268,12 @@
     {
      "rank": 1,
      "title": "张雪机车团队多人在意大利被盗，所乘大巴车遭盗匪光顾，为啥意大利的小偷这么猖獗？没有能惩治他们的办法吗？",
-     "hot_value": 5090000
+     "hot_value": 8150000
     },
     {
      "rank": 2,
      "title": "塞尔维亚总统武契奇宣布辞职，他此前表示将以普通公民身份参加竞选，还有哪些信息值得关注？",
-     "hot_value": 3050000
+     "hot_value": 3800000
     },
     {
      "rank": 3,
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "中美元首会晤的五个突破",
-     "hot_value": 2060000
+     "hot_value": 2490000
     },
     {
      "rank": 3,
      "title": "“大熊猫返美，我们非常兴奋”",
-     "hot_value": 1850000
+     "hot_value": 2280000
     }
    ]
   },
