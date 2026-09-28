@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-29 00:00:00",
- "total_batches": 252,
+ "updated_at": "2026-09-29 01:00:00",
+ "total_batches": 253,
  "platforms": [
   {
    "name": "36氪",
@@ -47,17 +47,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "中低端显卡价格冲击历史新高",
+     "title": "反T1联盟单曲",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "大降温来了",
+     "title": "中低端显卡价格冲击历史新高",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "反T1联盟单曲",
+     "title": "张雪团队在意大利遭遇了啥",
      "hot_value": null
     }
    ]
@@ -107,18 +107,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "华鼎奖提名名单",
-     "hot_value": 1370000
+     "title": "王楚钦快速摘掉银牌",
+     "hot_value": 2210000
     },
     {
      "rank": 2,
      "title": "Tiffany 小红书",
-     "hot_value": 1320000
+     "hot_value": 1550000
     },
     {
      "rank": 3,
-     "title": "中美人工智能政府间对话",
-     "hot_value": 1060000
+     "title": "平平福双已运至亚特兰大动物园",
+     "hot_value": 800000
     }
    ]
   },
@@ -148,17 +148,17 @@
     {
      "rank": 1,
      "title": "林诗栋4:0王楚钦夺冠",
-     "hot_value": 11550000
+     "hot_value": 11460000
     },
     {
      "rank": 2,
      "title": "中国队女子4×100米接力夺冠",
-     "hot_value": 11000000
+     "hot_value": 10960000
     },
     {
      "rank": 3,
      "title": "70万人点赞的跨国情谊",
-     "hot_value": 10900000
+     "hot_value": 10870000
     }
    ]
   },
@@ -268,17 +268,17 @@
     {
      "rank": 1,
      "title": "2026亚运会乒乓球男单决赛，林诗栋 4-0 王楚钦夺得金牌，如何评价本场比赛？",
-     "hot_value": 89780000
+     "hot_value": 99450000
     },
     {
      "rank": 2,
      "title": "如何看待常德一老人因误解养老金政策拾荒 21 年，最终领到 42 万养老金？暴露了背后哪些问题？",
-     "hot_value": 12260000
+     "hot_value": 8920000
     },
     {
      "rank": 3,
      "title": "中美「300亿对300亿」对等降税框架公布，超90%产品将享受最惠国关税待遇，将带来哪些利好？",
-     "hot_value": 6350000
+     "hot_value": 4800000
     }
    ]
   },
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "全世界聚焦中美元首会晤",
-     "hot_value": 2100000
+     "hot_value": 1980000
     },
     {
      "rank": 3,
      "title": "林诗栋4-0王楚钦 夺亚运男子单打金牌",
-     "hot_value": 1890000
+     "hot_value": 1770000
     }
    ]
   },
@@ -327,17 +327,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "教育部：坚决拥护党中央决定",
+     "title": "王毅会见日本国际贸易促进协会会长岩屋毅",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "伊朗最高领袖发表声明",
+     "title": "教育部：坚决拥护党中央决定",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "亚运会：林诗栋4-0胜王楚钦首夺男单冠军！国乒6金4银1铜收官",
+     "title": "伊朗最高领袖发表声明",
      "hot_value": null
     }
    ]
