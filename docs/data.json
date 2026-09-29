@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-29 19:00:00",
- "total_batches": 274,
+ "updated_at": "2026-09-29 20:00:00",
+ "total_batches": 275,
  "platforms": [
   {
    "name": "36氪",
@@ -52,7 +52,7 @@
     },
     {
      "rank": 2,
-     "title": "G2 vs PRX VCT冠军赛",
+     "title": "ChatGPT Pro API额度减半",
      "hot_value": null
     },
     {
@@ -107,18 +107,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "贴息",
-     "hot_value": 2350000
+     "title": "购房贴息 150万",
+     "hot_value": 3370000
     },
     {
      "rank": 2,
-     "title": "房贷贴息1个百分点",
-     "hot_value": 2300000
+     "title": "贴息",
+     "hot_value": 1080000
     },
     {
      "rank": 3,
      "title": "天山深处再现超级工程",
-     "hot_value": 2300000
+     "hot_value": 900000
     }
    ]
   },
@@ -147,18 +147,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "中国队和平精英亚运会银牌",
-     "hot_value": 11990000
+     "title": "陈芋汐卢为包揽10米台冠亚军",
+     "hot_value": 11520000
     },
     {
      "rank": 2,
      "title": "10月起对居民购房实施贷款贴息",
-     "hot_value": 11870000
+     "hot_value": 11100000
     },
     {
      "rank": 3,
      "title": "我国夏粮产量首次突破3000亿斤",
-     "hot_value": 11110000
+     "hot_value": 11090000
     }
    ]
   },
@@ -268,17 +268,17 @@
     {
      "rank": 1,
      "title": "居民房贷贴息政策10月1日起实施，年化贴息1%、最长补贴5年，限定房价150万以内，哪些信息值得关注？",
-     "hot_value": 8840000
+     "hot_value": 18780000
     },
     {
      "rank": 2,
      "title": "从本届亚运会来看，林诗栋夺得 3 金 1 银要成为国乒一哥了吗？",
-     "hot_value": 6640000
+     "hot_value": 10150000
     },
     {
      "rank": 3,
      "title": "多地贷款中介集体解散群聊、删除朋友圈，背后原因是什么？会带来哪些影响？",
-     "hot_value": 4530000
+     "hot_value": 3490000
     }
    ]
   },
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "重磅新政！贷款买房，国家“贴息”",
-     "hot_value": 2420000
+     "hot_value": 2520000
     },
     {
      "rank": 3,
      "title": "2026国庆假期天气地图",
-     "hot_value": 2220000
+     "hot_value": 2310000
     }
    ]
   },
@@ -327,17 +327,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "10月1日起我国将对居民购房实施贷款贴息",
+     "title": "中央财政出手！对居民购房贷款贴息1个百分点，助力住房需求释放",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "部长张柱带来一个好消息",
+     "title": "伊朗革命卫队发言人：美国若想结束战争则必须承认战败",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "中美俄元首将于深圳APEC期间会晤？外交部回应",
+     "title": "部长张柱带来一个好消息",
      "hot_value": null
     }
    ]
