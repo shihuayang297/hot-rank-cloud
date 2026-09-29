@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-09-30 01:00:00",
- "total_batches": 281,
+ "updated_at": "2026-09-30 02:00:00",
+ "total_batches": 282,
  "platforms": [
   {
    "name": "36氪",
@@ -52,12 +52,12 @@
     },
     {
      "rank": 2,
-     "title": "NRG战胜KC VCT冠军赛",
+     "title": "鸣潮新版本倒计时",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "购房贴息最高规模100万",
+     "title": "DeepSeek Harness桌面端上线",
      "hot_value": null
     }
    ]
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "金鹰奖获奖名单",
-     "hot_value": 1370000
+     "hot_value": 580000
     },
     {
      "rank": 2,
      "title": "芒果的策划又封神了",
-     "hot_value": 820000
+     "hot_value": 440000
     },
     {
      "rank": 3,
      "title": "遵义三日",
-     "hot_value": 710000
+     "hot_value": 300000
     }
    ]
   },
@@ -147,18 +147,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "请三休十三的人现在都到哪里了",
+     "title": "陈妤颉极限反超混接4x100米夺冠",
      "hot_value": 12100000
     },
     {
      "rank": 2,
-     "title": "陈妤颉极限反超混接4x100米夺冠",
-     "hot_value": 11700000
+     "title": "陈芋汐卢为包揽10米台冠亚军",
+     "hot_value": 11830000
     },
     {
      "rank": 3,
      "title": "世纪工程如何给鱼儿开绿色通道",
-     "hot_value": 11690000
+     "hot_value": 11440000
     }
    ]
   },
@@ -268,17 +268,17 @@
     {
      "rank": 1,
      "title": "居民房贷贴息政策10月1日起实施，年化贴息1%、最长补贴5年，限定房价150万以内，哪些信息值得关注？",
-     "hot_value": 39820000
+     "hot_value": 38120000
     },
     {
      "rank": 2,
      "title": "陕西醉驾碾压教师并拖行5.9公里致死案提级审理，罪名变更为故意杀人，法律上如何分析？",
-     "hot_value": 8530000
+     "hot_value": 8610000
     },
     {
      "rank": 3,
      "title": "深蓝董事长称车载冰箱使用率 5%，娱乐屏全年使用不足10次，这些配置真的鸡肋吗？那为啥行业在狂卷配置？",
-     "hot_value": 3880000
+     "hot_value": 3370000
     }
    ]
   },
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "重磅新政！贷款买房，国家“贴息”",
-     "hot_value": 1950000
+     "hot_value": 2180000
     },
     {
      "rank": 3,
      "title": "金鹰奖获奖名单",
-     "hot_value": 1750000
+     "hot_value": 1970000
     }
    ]
   },
