@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-01 01:00:00",
- "total_batches": 310,
+ "updated_at": "2026-10-01 02:00:00",
+ "total_batches": 311,
  "platforms": [
   {
    "name": "36氪",
@@ -47,7 +47,7 @@
    "items": [
     {
      "rank": 1,
-     "title": "凉哈皮谈首登亚运解说台",
+     "title": "亚运第五人格中国夺金",
      "hot_value": null
     },
     {
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "迪拜航空确认航班发生事故",
-     "hot_value": 1270000
+     "hot_value": 1360000
     },
     {
      "rank": 2,
-     "title": "国庆节",
-     "hot_value": 580000
+     "title": "为什么不喜欢全民发钱",
+     "hot_value": 350000
     },
     {
      "rank": 3,
      "title": "少年儿童高唱我们是共产主义接班人",
-     "hot_value": 460000
+     "hot_value": 280000
     }
    ]
   },
@@ -148,12 +148,12 @@
     {
      "rank": 1,
      "title": "中国队获第五人格亚运金牌",
-     "hot_value": 12090000
+     "hot_value": 12040000
     },
     {
      "rank": 2,
      "title": "天安门广场国庆升旗仪式",
-     "hot_value": 11250000
+     "hot_value": 11660000
     },
     {
      "rank": 3,
@@ -268,17 +268,17 @@
     {
      "rank": 1,
      "title": "迪拜航空客机发出紧急信号返航，被曝俄裔机长与乌克兰裔副驾发生激烈争吵，还有哪些信息值得关注？",
-     "hot_value": 12530000
+     "hot_value": 13530000
     },
     {
      "rank": 2,
      "title": "为什么GPT-6 Astra玩《我的世界》被炸毁进度后连续数小时种植土豆？这种异常行为怎么产生的？",
-     "hot_value": 5120000
+     "hot_value": 4990000
     },
     {
      "rank": 3,
-     "title": "我国最好吃的淡水鱼是什么鱼？",
-     "hot_value": 1980000
+     "title": "如何评价 OpenAI 发布的 GPT-6.1 sol？",
+     "hot_value": 1810000
     }
    ]
   },
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "“清澈的爱，只为中国！”",
-     "hot_value": 1790000
+     "hot_value": 1740000
     },
     {
      "rank": 3,
      "title": "孩子们用歌声为祖国庆生",
-     "hot_value": 1590000
+     "hot_value": 1530000
     }
    ]
   },
