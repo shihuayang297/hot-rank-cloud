@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-01 04:00:00",
- "total_batches": 313,
+ "updated_at": "2026-10-01 05:00:00",
+ "total_batches": 314,
  "platforms": [
   {
    "name": "36氪",
@@ -52,7 +52,7 @@
     },
     {
      "rank": 2,
-     "title": "VIT Derke冠军赛专访",
+     "title": "DeepSeek开源昇腾适配组件",
      "hot_value": null
     },
     {
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "迪拜航空确认航班发生事故",
-     "hot_value": 530000
+     "hot_value": 350000
     },
     {
      "rank": 2,
      "title": "副机长刺伤机长迪拜航空客机失控俯冲",
-     "hot_value": 110000
+     "hot_value": 90000
     },
     {
      "rank": 3,
      "title": "少年儿童高唱我们是共产主义接班人",
-     "hot_value": 90000
+     "hot_value": 70000
     }
    ]
   },
@@ -148,17 +148,17 @@
     {
      "rank": 1,
      "title": "中国队获第五人格亚运金牌",
-     "hot_value": 11800000
+     "hot_value": 11920000
     },
     {
      "rank": 2,
      "title": "天安门广场国庆升旗仪式",
-     "hot_value": 11540000
+     "hot_value": 11700000
     },
     {
      "rank": 3,
      "title": "各地装扮一新喜迎国庆",
-     "hot_value": 11510000
+     "hot_value": 11470000
     }
    ]
   },
@@ -268,17 +268,17 @@
     {
      "rank": 1,
      "title": "迪拜航空客机发出紧急信号返航，被曝俄裔机长与乌克兰裔副驾发生激烈争吵，还有哪些信息值得关注？",
-     "hot_value": 13220000
+     "hot_value": 12740000
     },
     {
      "rank": 2,
      "title": "为什么GPT-6 Astra玩《我的世界》被炸毁进度后连续数小时种植土豆？这种异常行为怎么产生的？",
-     "hot_value": 4440000
+     "hot_value": 4170000
     },
     {
      "rank": 3,
      "title": "鸿蒙装机量突破 9000 万台，预计年底破亿，对移动操作系统格局有何影响？",
-     "hot_value": 1640000
+     "hot_value": 1630000
     }
    ]
   },
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "“清澈的爱，只为中国！”",
-     "hot_value": 1690000
+     "hot_value": 1740000
     },
     {
      "rank": 3,
      "title": "孩子们用歌声为祖国庆生",
-     "hot_value": 1480000
+     "hot_value": 1530000
     }
    ]
   },
