@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-01 13:00:00",
- "total_batches": 324,
+ "updated_at": "2026-10-01 14:00:00",
+ "total_batches": 325,
  "platforms": [
   {
    "name": "36氪",
@@ -57,7 +57,7 @@
     },
     {
      "rank": 3,
-     "title": "Bin入围年度最佳PC选手",
+     "title": "华为Mate 90系列新品体验",
      "hot_value": null
     }
    ]
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "华为Mate90价格",
-     "hot_value": 1700000
+     "hot_value": 1140000
     },
     {
      "rank": 2,
-     "title": "央视国庆晚会阵容发布",
-     "hot_value": 950000
+     "title": "12306回应候补成功后车已开走",
+     "hot_value": 820000
     },
     {
      "rank": 3,
      "title": "清澈的爱只为中国",
-     "hot_value": 770000
+     "hot_value": 670000
     }
    ]
   },
@@ -147,18 +147,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "天安门广场国庆升旗仪式",
+     "title": "国庆节快乐",
      "hot_value": 12120000
     },
     {
      "rank": 2,
-     "title": "国庆节快乐",
-     "hot_value": 12110000
+     "title": "天安门广场国庆升旗仪式",
+     "hot_value": 11820000
     },
     {
      "rank": 3,
      "title": "我国加快建设现代化水网",
-     "hot_value": 11580000
+     "hot_value": 11080000
     }
    ]
   },
@@ -268,17 +268,17 @@
     {
      "rank": 1,
      "title": "现在大家都把国庆当纯放假玩，有没有什么「老派」过节体验？",
-     "hot_value": 5450000
+     "hot_value": 5670000
     },
     {
      "rank": 2,
      "title": "为什么酒精灯里酒精不用100%浓度而是用95%浓度？",
-     "hot_value": 2680000
+     "hot_value": 3280000
     },
     {
      "rank": 3,
-     "title": "为啥只有8090后的人喜欢用电脑的程度大于手机？",
-     "hot_value": 2390000
+     "title": "如何评价 10月 1 日发布的华为Mate 90系列全系旗舰τ芯片，不同版本如何选择？",
+     "hot_value": 3010000
     }
    ]
   },
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "完整视频：天安门广场国庆升旗仪式",
-     "hot_value": 2160000
+     "hot_value": 1970000
     },
     {
      "rank": 3,
      "title": "天安门广场全场大合唱《歌唱祖国》",
-     "hot_value": 1950000
+     "hot_value": 1760000
     }
    ]
   },
