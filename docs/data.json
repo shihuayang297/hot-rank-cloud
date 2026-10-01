@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-01 11:00:00",
- "total_batches": 322,
+ "updated_at": "2026-10-01 12:00:00",
+ "total_batches": 323,
  "platforms": [
   {
    "name": "36氪",
@@ -57,7 +57,7 @@
     },
     {
      "rank": 3,
-     "title": "谷歌发布Gemini 4 Argon",
+     "title": "Bin入围年度最佳PC选手",
      "hot_value": null
     }
    ]
@@ -107,18 +107,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "原央视主持人阿丘被通报",
-     "hot_value": 1680000
+     "title": "华为Mate90价格",
+     "hot_value": 2910000
     },
     {
      "rank": 2,
-     "title": "中方对日本首相称呼发生变化",
-     "hot_value": 900000
+     "title": "小米汽车",
+     "hot_value": 1090000
     },
     {
      "rank": 3,
      "title": "清澈的爱只为中国",
-     "hot_value": 750000
+     "hot_value": 830000
     }
    ]
   },
@@ -153,12 +153,12 @@
     {
      "rank": 2,
      "title": "国庆节快乐",
-     "hot_value": 12130000
+     "hot_value": 11800000
     },
     {
      "rank": 3,
      "title": "我国加快建设现代化水网",
-     "hot_value": 11780000
+     "hot_value": 11520000
     }
    ]
   },
@@ -252,12 +252,12 @@
     },
     {
      "rank": 2,
-     "title": "农民交公粮能否视同缴社保",
+     "title": "华为Mate90系列价格",
      "hot_value": 7810000
     },
     {
      "rank": 3,
-     "title": "中国男足表态：带着奖牌回家",
+     "title": "华为Mate90搭载旗舰韬芯片",
      "hot_value": 7710000
     }
    ]
@@ -268,17 +268,17 @@
     {
      "rank": 1,
      "title": "现在大家都把国庆当纯放假玩，有没有什么「老派」过节体验？",
-     "hot_value": 11300000
+     "hot_value": 11920000
     },
     {
      "rank": 2,
      "title": "为什么酒精灯里酒精不用100%浓度而是用95%浓度？",
-     "hot_value": 2120000
+     "hot_value": 2640000
     },
     {
      "rank": 3,
-     "title": "迪拜航空客机发出紧急信号异常改道，飞行员发生争斗一人被刺伤，还有哪些信息值得关注？",
-     "hot_value": 2090000
+     "title": "为啥只有8090后的人喜欢用电脑的程度大于手机？",
+     "hot_value": 1960000
     }
    ]
   },
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "完整视频：天安门广场国庆升旗仪式",
-     "hot_value": 2330000
+     "hot_value": 2030000
     },
     {
      "rank": 3,
      "title": "天安门广场全场大合唱《歌唱祖国》",
-     "hot_value": 2130000
+     "hot_value": 1830000
     }
    ]
   },
