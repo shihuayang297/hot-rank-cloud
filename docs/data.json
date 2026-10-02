@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-02 22:00:00",
- "total_batches": 361,
+ "updated_at": "2026-10-02 23:00:00",
+ "total_batches": 363,
  "platforms": [
   {
    "name": "36氪",
@@ -47,17 +47,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "T1 vs JDG VCT冠军赛",
+     "title": "南通Hero久竞战胜成都AG超玩会",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "葡萄牙队社媒已掉粉120万",
+     "title": "名古屋亚运会为何翻车不断",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "HOPICO刘欢纪念特辑",
+     "title": "F1巴林一练二练战报",
      "hot_value": null
     }
    ]
@@ -107,13 +107,13 @@
    "items": [
     {
      "rank": 1,
-     "title": "国足0比5巴勒斯坦",
-     "hot_value": 1150000
+     "title": "邵佳一 国足",
+     "hot_value": 1130000
     },
     {
      "rank": 2,
-     "title": "中国vs巴勒斯坦",
-     "hot_value": 860000
+     "title": "杜翠雀杀了袁绍辉",
+     "hot_value": 830000
     },
     {
      "rank": 3,
@@ -147,18 +147,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "JDG生死战对阵T1",
-     "hot_value": 12100000
+     "title": "国足0:5不敌巴勒斯坦",
+     "hot_value": 12050000
     },
     {
      "rank": 2,
-     "title": "全世界都知道中国人放假了",
-     "hot_value": 11150000
+     "title": "JDG1:2不敌T1",
+     "hot_value": 11820000
     },
     {
      "rank": 3,
      "title": "我国秋粮收获进度已过三成",
-     "hot_value": 11130000
+     "hot_value": 11060000
     }
    ]
   },
@@ -252,12 +252,12 @@
     },
     {
      "rank": 2,
-     "title": "60年首败！国足0比5不敌巴勒斯坦",
+     "title": "亚运三金到手 归来仍是高中生",
      "hot_value": 7810000
     },
     {
      "rank": 3,
-     "title": "全国各地为何都在“爆改地铁”",
+     "title": "如此输球 国足交出糟糕答卷",
      "hot_value": 7710000
     }
    ]
@@ -267,18 +267,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "继巨型吊牌之后，女装网店启用「防拆带」应对恶意退货，这会更有效吗？有人说市场信任崩溃了，为什么会这样？",
-     "hot_value": 3740000
+     "title": "CFA 友谊赛，中国男足 0-5 巴勒斯坦，如何评价本场比赛？",
+     "hot_value": 7030000
     },
     {
      "rank": 2,
-     "title": "清华北大是本身有含金量，还是因为13亿人高考内卷出来的排名靠前的学生有含金量？",
-     "hot_value": 1970000
+     "title": "中国的AI短剧发展得如火如荼，而国外AI短剧却没怎么发展起来，是什么原因？",
+     "hot_value": 2780000
     },
     {
      "rank": 3,
-     "title": "为什么维生素只有 ABCDE和K，中间跳过了 FGHIJ？",
-     "hot_value": 1930000
+     "title": "继巨型吊牌之后，女装网店启用「防拆带」应对恶意退货，这会更有效吗？有人说市场信任崩溃了，为什么会这样？",
+     "hot_value": 2250000
     }
    ]
   },
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "“中国排面”高唱强军战歌",
-     "hot_value": 2460000
+     "hot_value": 2580000
     },
     {
      "rank": 3,
      "title": "领略锦绣神州的水韵华章",
-     "hot_value": 2260000
+     "hot_value": 2370000
     }
    ]
   },
@@ -332,12 +332,12 @@
     },
     {
      "rank": 2,
-     "title": "俄罗斯下令：通缉伊瓦先科等人",
+     "title": "美媒爆料：美国几个主要盟友，未获邀请",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "非洲这三国掐起来了",
+     "title": "巨型“充电宝”，上新了",
      "hot_value": null
     }
    ]
