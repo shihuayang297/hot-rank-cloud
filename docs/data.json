@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-03 02:00:00",
- "total_batches": 366,
+ "updated_at": "2026-10-03 03:00:00",
+ "total_batches": 367,
  "platforms": [
   {
    "name": "36氪",
@@ -57,7 +57,7 @@
     },
     {
      "rank": 3,
-     "title": "T1战胜JDG VCT冠军赛",
+     "title": "GE战胜EDG VCT冠军赛",
      "hot_value": null
     }
    ]
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "国足0比5惨败却让小将接受采访",
-     "hot_value": 650000
+     "hot_value": 460000
     },
     {
      "rank": 2,
-     "title": "巴勒斯坦主帅说不评价国足防守",
-     "hot_value": 280000
+     "title": "国足首发身价不及巴勒斯坦一半",
+     "hot_value": 340000
     },
     {
      "rank": 3,
      "title": "多部门多措并举保障国庆公路出行",
-     "hot_value": 220000
+     "hot_value": 270000
     }
    ]
   },
@@ -148,17 +148,17 @@
     {
      "rank": 1,
      "title": "国足0:5不敌巴勒斯坦",
-     "hot_value": 11760000
+     "hot_value": 11550000
     },
     {
      "rank": 2,
      "title": "JDG1:2不敌T1",
-     "hot_value": 11320000
+     "hot_value": 11340000
     },
     {
      "rank": 3,
      "title": "我国秋粮收获进度已过三成",
-     "hot_value": 11300000
+     "hot_value": 11170000
     }
    ]
   },
@@ -268,17 +268,17 @@
     {
      "rank": 1,
      "title": "CFA 友谊赛，中国男足 0-5 巴勒斯坦，如何评价本场比赛？",
-     "hot_value": 14760000
+     "hot_value": 14690000
     },
     {
      "rank": 2,
      "title": "中国的AI短剧发展得如火如荼，而国外AI短剧却没怎么发展起来，是什么原因？",
-     "hot_value": 4310000
+     "hot_value": 4260000
     },
     {
      "rank": 3,
      "title": "网友称小诊所看病好得快的原因是采用了抗生素、激素等猛药压制症状的疗法，是真的吗？会对健康造成哪些影响？",
-     "hot_value": 2920000
+     "hot_value": 2340000
     }
    ]
   },
