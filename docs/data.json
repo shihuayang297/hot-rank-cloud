@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-03 00:00:00",
- "total_batches": 364,
+ "updated_at": "2026-10-03 01:00:00",
+ "total_batches": 365,
  "platforms": [
   {
    "name": "36氪",
@@ -52,12 +52,12 @@
     },
     {
      "rank": 2,
-     "title": "南通Hero久竞战胜成都AG超玩会",
+     "title": "华为Mate90系列韬定律解析",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "北美RTX5090线下开启限购",
+     "title": "T1战胜JDG VCT冠军赛",
      "hot_value": null
     }
    ]
@@ -107,18 +107,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "董路谈国足0比5巴勒斯坦",
-     "hot_value": 1250000
+     "title": "巴勒斯坦主帅说不评价国足防守",
+     "hot_value": 730000
     },
     {
      "rank": 2,
      "title": "王楚钦复盘亚运会",
-     "hot_value": 870000
+     "hot_value": 520000
     },
     {
      "rank": 3,
      "title": "多部门多措并举保障国庆公路出行",
-     "hot_value": 660000
+     "hot_value": 410000
     }
    ]
   },
@@ -148,17 +148,17 @@
     {
      "rank": 1,
      "title": "国足0:5不敌巴勒斯坦",
-     "hot_value": 12150000
+     "hot_value": 11930000
     },
     {
      "rank": 2,
      "title": "JDG1:2不敌T1",
-     "hot_value": 11820000
+     "hot_value": 11670000
     },
     {
      "rank": 3,
      "title": "我国秋粮收获进度已过三成",
-     "hot_value": 11360000
+     "hot_value": 11280000
     }
    ]
   },
@@ -268,17 +268,17 @@
     {
      "rank": 1,
      "title": "CFA 友谊赛，中国男足 0-5 巴勒斯坦，如何评价本场比赛？",
-     "hot_value": 10570000
+     "hot_value": 13520000
     },
     {
      "rank": 2,
      "title": "中国的AI短剧发展得如火如荼，而国外AI短剧却没怎么发展起来，是什么原因？",
-     "hot_value": 3500000
+     "hot_value": 4090000
     },
     {
      "rank": 3,
      "title": "网友称小诊所看病好得快的原因是采用了抗生素、激素等猛药压制症状的疗法，是真的吗？会对健康造成哪些影响？",
-     "hot_value": 2580000
+     "hot_value": 2860000
     }
    ]
   },
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "“中国排面”高唱强军战歌",
-     "hot_value": 2770000
+     "hot_value": 2560000
     },
     {
      "rank": 3,
      "title": "领略锦绣神州的水韵华章",
-     "hot_value": 2560000
+     "hot_value": 2350000
     }
    ]
   },
