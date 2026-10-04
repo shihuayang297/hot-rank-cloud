@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-04 15:00:00",
- "total_batches": 411,
+ "updated_at": "2026-10-04 16:00:00",
+ "total_batches": 412,
  "platforms": [
   {
    "name": "36氪",
@@ -47,17 +47,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "TE vs FPX.ZQ IVL秋季赛",
+     "title": "LGD vs BFX 德玛西亚杯",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "经济制裁能够制止战争吗",
+     "title": "亚运会中国队破了哪些记录",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "KSG vs 深圳DYG KPL",
+     "title": "KSG战胜深圳DYG KPL",
      "hot_value": null
     }
    ]
@@ -107,18 +107,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "张展硕无缘亚运会MVP引争议",
-     "hot_value": 1140000
+     "title": "日本人参观南京大屠杀遇难同胞纪念馆",
+     "hot_value": 1100000
     },
     {
      "rank": 2,
      "title": "余承东 余总转发文案",
-     "hot_value": 800000
+     "hot_value": 810000
     },
     {
      "rank": 3,
-     "title": "用九宫格打开亚运赛场的中国红",
-     "hot_value": 640000
+     "title": "假期出游赴山河之约",
+     "hot_value": 630000
     }
    ]
   },
@@ -147,18 +147,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "国庆自驾搭子集体陷入沉默",
-     "hot_value": 11090000
+     "title": "市井人家的炊烟笑语总是令人心安",
+     "hot_value": 11410000
     },
     {
      "rank": 2,
-     "title": "市井人家的炊烟笑语总是令人心安",
-     "hot_value": 11070000
+     "title": "国庆自驾搭子集体陷入沉默",
+     "hot_value": 11190000
     },
     {
      "rank": 3,
      "title": "多重优惠叠加激活假日购物车",
-     "hot_value": 11040000
+     "hot_value": 11120000
     }
    ]
   },
@@ -247,7 +247,7 @@
    "items": [
     {
      "rank": 1,
-     "title": "古树新翠",
+     "title": "总书记赞誉的爱国者",
      "hot_value": 7900000
     },
     {
@@ -257,7 +257,7 @@
     },
     {
      "rank": 3,
-     "title": "游客打卡政府食堂吃了500斤饭400斤鹅",
+     "title": "国安部提醒小心基因被窃",
      "hot_value": 7710000
     }
    ]
@@ -268,17 +268,17 @@
     {
      "rank": 1,
      "title": "德国教材「很多中国人没有汽车，出行靠自行车或步行」等内容引争议，这真是现行教材吗？为何会出现这种错误？",
-     "hot_value": 25150000
+     "hot_value": 26280000
     },
     {
      "rank": 2,
      "title": "如何看待深圳一车主连续两次占用应急车道，被按深圳特区法规罚 6000 元？你支持全国推广吗？",
-     "hot_value": 5580000
+     "hot_value": 5790000
     },
     {
      "rank": 3,
      "title": "景区文创陷入「冤种三件套」，从护手霜到冰箱贴，为啥文创越来越同质化？怎样的景区文创才能让你愿意买单？",
-     "hot_value": 2760000
+     "hot_value": 2980000
     }
    ]
   },
@@ -307,18 +307,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "人民就是江山",
+     "title": "古树新翠",
      "hot_value": 480000
     },
     {
      "rank": 2,
      "title": "多国政要祝贺新中国成立77周年",
-     "hot_value": 2040000
+     "hot_value": 2230000
     },
     {
      "rank": 3,
-     "title": "中国选手于子迪当选亚运会MVP",
-     "hot_value": 1840000
+     "title": "村民用近500斤辣椒拼成国旗",
+     "hot_value": 2030000
     }
    ]
   },
