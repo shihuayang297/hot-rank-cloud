@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-05 05:00:00",
- "total_batches": 428,
+ "updated_at": "2026-10-05 06:00:00",
+ "total_batches": 429,
  "platforms": [
   {
    "name": "36氪",
@@ -47,17 +47,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "ZmjjKK冠军赛专访",
-     "hot_value": null
-    },
-    {
-     "rank": 2,
      "title": "UP主广州街唱偶遇李玉刚",
      "hot_value": null
     },
     {
+     "rank": 2,
+     "title": "ZmjjKK冠军赛专访",
+     "hot_value": null
+    },
+    {
      "rank": 3,
-     "title": "安东尼奥说自己是最幸福的教练",
+     "title": "我军反无人机铁三角戈壁实弹演练",
      "hot_value": null
     }
    ]
@@ -108,12 +108,12 @@
     {
      "rank": 1,
      "title": "年轻人开始不买景区冤种三件套了",
-     "hot_value": 250000
+     "hot_value": 310000
     },
     {
      "rank": 2,
      "title": "超10万份孕妇血样被偷运出境",
-     "hot_value": 180000
+     "hot_value": 220000
     },
     {
      "rank": 3,
@@ -153,12 +153,12 @@
     {
      "rank": 2,
      "title": "是谁在重庆免费听了soldout",
-     "hot_value": 11150000
+     "hot_value": 11540000
     },
     {
      "rank": 3,
      "title": "我国假日经济持续升温",
-     "hot_value": 11100000
+     "hot_value": 11240000
     }
    ]
   },
@@ -268,17 +268,17 @@
     {
      "rank": 1,
      "title": "“飞行员想带我们一起自杀！”怎么看待迪拜航空飞机一分钟骤降1.5万英尺，机组人员刺伤同事?",
-     "hot_value": 2790000
+     "hot_value": 2860000
     },
     {
      "rank": 2,
-     "title": "2027 年泰晤士大学排名出炉，清华首次超越欧洲大陆所有高校，有哪些信息值得关注？",
-     "hot_value": 1910000
+     "title": "国产旗舰新机集体涨价后 iPhone 销量反弹，导致这一现象的原因是什么？",
+     "hot_value": 1610000
     },
     {
      "rank": 3,
-     "title": "国产旗舰新机集体涨价后 iPhone 销量反弹，导致这一现象的原因是什么？",
-     "hot_value": 1560000
+     "title": "《艾希：续》众筹突破2000万，制作人直播下跪求大家别再捐了，恳请不要「造神」，这事你怎么看？",
+     "hot_value": 1430000
     }
    ]
   },
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "亚运国足主帅：这代球员有望进世界杯",
-     "hot_value": 1910000
+     "hot_value": 1950000
     },
     {
      "rank": 3,
      "title": "国庆景区热度Top10被小城包揽",
-     "hot_value": 1700000
+     "hot_value": 1740000
     }
    ]
   },
