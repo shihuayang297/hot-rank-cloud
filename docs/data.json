@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-06 03:00:00",
- "total_batches": 454,
+ "updated_at": "2026-10-06 04:00:00",
+ "total_batches": 455,
  "platforms": [
   {
    "name": "36氪",
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "孙颖莎开始整顿乒乓球观赛礼仪",
-     "hot_value": 230000
+     "hot_value": 130000
     },
     {
      "rank": 2,
      "title": "未来几年能留住现金流最重要",
-     "hot_value": 170000
+     "hot_value": 100000
     },
     {
      "rank": 3,
      "title": "中国空心光纤网速更快了",
-     "hot_value": 170000
+     "hot_value": 100000
     }
    ]
   },
@@ -148,17 +148,17 @@
     {
      "rank": 1,
      "title": "一诺亚运会后的一封家书",
-     "hot_value": 12070000
+     "hot_value": 12090000
     },
     {
      "rank": 2,
      "title": "你说得对人是应该多出去走走",
-     "hot_value": 11380000
+     "hot_value": 11790000
     },
     {
      "rank": 3,
      "title": "智慧交通助力国庆假期出行",
-     "hot_value": 10960000
+     "hot_value": 11400000
     }
    ]
   },
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "南部战区正告菲方：立即停止侵权挑衅",
-     "hot_value": 1810000
+     "hot_value": 1840000
     },
     {
      "rank": 3,
      "title": "中国警方缅北取证：战斗机头顶投炸弹",
-     "hot_value": 1600000
+     "hot_value": 1640000
     }
    ]
   },
