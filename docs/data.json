@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-05 16:00:00",
- "total_batches": 441,
+ "updated_at": "2026-10-05 17:00:00",
+ "total_batches": 443,
  "platforms": [
   {
    "name": "36氪",
@@ -47,17 +47,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "北京WB vs 长沙TES.A KPL",
+     "title": "VIT战胜GAM",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "GAM vs VIT 德玛西亚杯",
+     "title": "印度为何能为英国培养飞行员",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "印度为何能为英国培养飞行员",
+     "title": "黄仁勋世界巡演",
      "hot_value": null
     }
    ]
@@ -107,18 +107,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "女子被缅北电诈血本无归投河自尽",
-     "hot_value": 1120000
+     "title": "五天爬完五岳",
+     "hot_value": 1180000
     },
     {
      "rank": 2,
-     "title": "孙颖莎重回世界第一",
-     "hot_value": 830000
+     "title": "女子被缅北电诈血本无归投河自尽",
+     "hot_value": 1020000
     },
     {
      "rank": 3,
      "title": "十一假期返程安全提示",
-     "hot_value": 660000
+     "hot_value": 670000
     }
    ]
   },
@@ -148,17 +148,17 @@
     {
      "rank": 1,
      "title": "你说得对人是应该多出去走走",
-     "hot_value": 12040000
+     "hot_value": 12140000
     },
     {
      "rank": 2,
      "title": "欧国联葡萄牙2:1挪威",
-     "hot_value": 11330000
+     "hot_value": 11340000
     },
     {
      "rank": 3,
      "title": "六张网编织超级新基建",
-     "hot_value": 11290000
+     "hot_value": 11310000
     }
    ]
   },
@@ -247,7 +247,7 @@
    "items": [
     {
      "rank": 1,
-     "title": "过一个风清气正的节日",
+     "title": "国庆时刻 感悟新时代治国理政之道",
      "hot_value": 7900000
     },
     {
@@ -257,7 +257,7 @@
     },
     {
      "rank": 3,
-     "title": "别人都活力四射 只有我在倒立玩手机",
+     "title": "年轻人十一出片全靠15元次抛衣",
      "hot_value": 7710000
     }
    ]
@@ -268,17 +268,17 @@
     {
      "rank": 1,
      "title": "女网红参加柏林马拉松比赛，却通过骑自行车作弊，后因被当地人拍照揭发而道歉，如何看待这一现象？",
-     "hot_value": 5930000
+     "hot_value": 6190000
     },
     {
      "rank": 2,
      "title": "国安部通报境外组织借医疗检测非法采血样，曾有超10万份孕妇血样被偷运出境，会对生物安全产生哪些影响？",
-     "hot_value": 4060000
+     "hot_value": 4970000
     },
     {
      "rank": 3,
      "title": "西游记里的人参果这么好，为什么妖怪不去抢？",
-     "hot_value": 3580000
+     "hot_value": 3180000
     }
    ]
   },
@@ -307,18 +307,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "党的政策对老百姓好，才是真正的好",
-     "hot_value": 750000
+     "title": "因为国 所以潮",
+     "hot_value": 1000000
     },
     {
      "rank": 2,
      "title": "央视披露缅北电诈真实案例",
-     "hot_value": 2130000
+     "hot_value": 2030000
     },
     {
      "rank": 3,
      "title": "九位华人科学家成诺奖热门",
-     "hot_value": 1920000
+     "hot_value": 1820000
     }
    ]
   },
