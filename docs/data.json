@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-05 23:00:00",
- "total_batches": 449,
+ "updated_at": "2026-10-06 00:00:00",
+ "total_batches": 450,
  "platforms": [
   {
    "name": "36氪",
@@ -47,17 +47,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "重庆狼队 vs 上海EDG.M KPL",
+     "title": "重庆狼队战胜上海EDG.M KPL",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "缅北电诈覆灭纪实",
+     "title": "这菜吃了能不烧心吗",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "UP主自制国庆假期延长游戏",
+     "title": "Windows将优化内存列为首要任务",
      "hot_value": null
     }
    ]
@@ -107,18 +107,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "梅德韦杰夫伤到观众被判负",
-     "hot_value": 1660000
+     "title": "孙颖莎开始整顿乒乓球观赛礼仪",
+     "hot_value": 1190000
     },
     {
      "rank": 2,
-     "title": "曝腾讯退货张居正",
-     "hot_value": 1630000
+     "title": "梅德韦杰夫伤到观众被判负",
+     "hot_value": 1180000
     },
     {
      "rank": 3,
      "title": "中国空心光纤网速更快了",
-     "hot_value": 1030000
+     "hot_value": 900000
     }
    ]
   },
@@ -148,17 +148,17 @@
     {
      "rank": 1,
      "title": "你说得对人是应该多出去走走",
-     "hot_value": 12110000
+     "hot_value": 12130000
     },
     {
      "rank": 2,
      "title": "华为与高通达成专利许可协议",
-     "hot_value": 11840000
+     "hot_value": 12090000
     },
     {
      "rank": 3,
      "title": "智慧交通助力国庆假期出行",
-     "hot_value": 11800000
+     "hot_value": 11400000
     }
    ]
   },
@@ -268,17 +268,17 @@
     {
      "rank": 1,
      "title": "华为与高通宣布达成广泛专利许可协议，意味着什么？释放了哪些信号？",
-     "hot_value": 18220000
+     "hot_value": 18800000
     },
     {
      "rank": 2,
      "title": "国安部通报境外组织借医疗检测非法采血样，曾有超10万份孕妇血样被偷运出境，会对生物安全产生哪些影响？",
-     "hot_value": 6120000
+     "hot_value": 5910000
     },
     {
      "rank": 3,
      "title": "为何日本的铁轨坚持不和世界统一？一直用窄轨，有什么好处？",
-     "hot_value": 2650000
+     "hot_value": 2680000
     }
    ]
   },
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "南部战区正告菲方：立即停止侵权挑衅",
-     "hot_value": 1860000
+     "hot_value": 1800000
     },
     {
      "rank": 3,
      "title": "中国警方缅北取证：战斗机头顶投炸弹",
-     "hot_value": 1660000
+     "hot_value": 1600000
     }
    ]
   },
@@ -332,12 +332,12 @@
     },
     {
      "rank": 2,
-     "title": "蔡康永为“台独”顽固分子沈伯洋造势，蒋万安又为蔡康永站台",
+     "title": "也门政府军称收复红海港口城市穆哈",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "媒体评论员：中东双海峡博弈升级，美国为何选择袖手旁观？",
+     "title": "重庆酉阳发生盗矿案，7人溺亡",
      "hot_value": null
     }
    ]
