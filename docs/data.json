@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-06 05:00:00",
- "total_batches": 456,
+ "updated_at": "2026-10-06 06:00:00",
+ "total_batches": 457,
  "platforms": [
   {
    "name": "36氪",
@@ -47,17 +47,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "重庆狼队战胜上海EDG.M KPL",
-     "hot_value": null
-    },
-    {
-     "rank": 2,
      "title": "英雄联盟全球总决赛赛制说明",
      "hot_value": null
     },
     {
+     "rank": 2,
+     "title": "这菜吃了能不烧心吗",
+     "hot_value": null
+    },
+    {
      "rank": 3,
-     "title": "Windows将优化内存列为首要任务",
+     "title": "邓紫棋自由的你上线",
      "hot_value": null
     }
    ]
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "未来几年能留住现金流最重要",
-     "hot_value": 100000
+     "hot_value": 220000
     },
     {
      "rank": 2,
      "title": "孙颖莎开始整顿乒乓球观赛礼仪",
-     "hot_value": 80000
+     "hot_value": 160000
     },
     {
      "rank": 3,
      "title": "中国空心光纤网速更快了",
-     "hot_value": 80000
+     "hot_value": 160000
     }
    ]
   },
@@ -147,18 +147,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "华为与高通达成专利许可协议",
+     "title": "一诺亚运会后的一封家书",
      "hot_value": 12090000
     },
     {
      "rank": 2,
-     "title": "一诺亚运会后的一封家书",
-     "hot_value": 12060000
+     "title": "你说得对人是应该多出去走走",
+     "hot_value": 12050000
     },
     {
      "rank": 3,
      "title": "智慧交通助力国庆假期出行",
-     "hot_value": 11640000
+     "hot_value": 11910000
     }
    ]
   },
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "南部战区正告菲方：立即停止侵权挑衅",
-     "hot_value": 1820000
+     "hot_value": 1780000
     },
     {
      "rank": 3,
      "title": "中国警方缅北取证：战斗机头顶投炸弹",
-     "hot_value": 1610000
+     "hot_value": 1570000
     }
    ]
   },
