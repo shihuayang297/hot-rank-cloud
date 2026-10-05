@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-06 01:00:00",
- "total_batches": 451,
+ "updated_at": "2026-10-06 01:50:00",
+ "total_batches": 452,
  "platforms": [
   {
    "name": "36氪",
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "孙颖莎开始整顿乒乓球观赛礼仪",
-     "hot_value": 800000
+     "hot_value": 420000
     },
     {
      "rank": 2,
      "title": "未来几年能留住现金流最重要",
-     "hot_value": 640000
+     "hot_value": 390000
     },
     {
      "rank": 3,
      "title": "中国空心光纤网速更快了",
-     "hot_value": 450000
+     "hot_value": 380000
     }
    ]
   },
@@ -153,12 +153,12 @@
     {
      "rank": 2,
      "title": "郑钦文闯入中网16强",
-     "hot_value": 11560000
+     "hot_value": 11380000
     },
     {
      "rank": 3,
      "title": "智慧交通助力国庆假期出行",
-     "hot_value": 11300000
+     "hot_value": 11210000
     }
    ]
   },
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "南部战区正告菲方：立即停止侵权挑衅",
-     "hot_value": 1790000
+     "hot_value": 1770000
     },
     {
      "rank": 3,
      "title": "中国警方缅北取证：战斗机头顶投炸弹",
-     "hot_value": 1580000
+     "hot_value": 1570000
     }
    ]
   },
