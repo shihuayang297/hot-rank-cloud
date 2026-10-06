@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-06 08:00:00",
- "total_batches": 460,
+ "updated_at": "2026-10-06 09:00:00",
+ "total_batches": 461,
  "platforms": [
   {
    "name": "36氪",
@@ -47,17 +47,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "邓紫棋自由的你上线",
+     "title": "法国4-1比利时",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "英雄联盟全球总决赛赛制说明",
+     "title": "邓紫棋自由的你上线",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "Windows将优化内存列为首要任务",
+     "title": "小蜜蜂让一追二战胜猎鹰",
      "hot_value": null
     }
    ]
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "黄金睡眠时长出炉",
-     "hot_value": 1090000
+     "hot_value": 1220000
     },
     {
      "rank": 2,
-     "title": "未来几年能留住现金流最重要",
-     "hot_value": 810000
+     "title": "回老家掰苞米感觉世界割裂",
+     "hot_value": 840000
     },
     {
      "rank": 3,
      "title": "中国空心光纤网速更快了",
-     "hot_value": 630000
+     "hot_value": 670000
     }
    ]
   },
@@ -147,18 +147,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "华为与高通达成专利许可协议",
-     "hot_value": 12090000
+     "title": "你说得对人是应该多出去走走",
+     "hot_value": 12070000
     },
     {
      "rank": 2,
-     "title": "你说得对人是应该多出去走走",
-     "hot_value": 11760000
+     "title": "国庆假期速度belike",
+     "hot_value": 11580000
     },
     {
      "rank": 3,
      "title": "智慧交通助力国庆假期出行",
-     "hot_value": 11570000
+     "hot_value": 11370000
     }
    ]
   },
@@ -257,7 +257,7 @@
     },
     {
      "rank": 3,
-     "title": "中国收废品的大爷可能已经赚翻了",
+     "title": "区委书记逐一核查值班人员是否在岗",
      "hot_value": 7710000
     }
    ]
@@ -313,12 +313,12 @@
     {
      "rank": 2,
      "title": "一批大国重器迎来新突破",
-     "hot_value": 1930000
+     "hot_value": 2170000
     },
     {
      "rank": 3,
      "title": "缅北电诈头目钱多到发霉",
-     "hot_value": 1730000
+     "hot_value": 1960000
     }
    ]
   },
@@ -332,7 +332,7 @@
     },
     {
      "rank": 2,
-     "title": "以色列消息人士：迪拜航空副驾驶作案动机是“为加沙复仇”",
+     "title": "“劫机者本想袭击以色列机场，以色列曾准备将其击落”",
      "hot_value": null
     },
     {
