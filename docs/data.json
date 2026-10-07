@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-07 15:00:00",
- "total_batches": 496,
+ "updated_at": "2026-10-07 16:00:00",
+ "total_batches": 497,
  "platforms": [
   {
    "name": "36氪",
@@ -47,17 +47,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "反向旅游贵州铜川",
-     "hot_value": null
-    },
-    {
-     "rank": 2,
      "title": "KSG vs 长沙TES.A KPL年度总决赛",
      "hot_value": null
     },
     {
+     "rank": 2,
+     "title": "GAM vs FLY 德玛西亚杯",
+     "hot_value": null
+    },
+    {
      "rank": 3,
-     "title": "以醉之名",
+     "title": "获得诺奖的冰立方到底是什么",
      "hot_value": null
     }
    ]
@@ -107,18 +107,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "韩版衣服中国造国内搜不到",
-     "hot_value": 1380000
+     "title": "王星被骗至妙瓦底4天被卖3次",
+     "hot_value": 3800000
     },
     {
      "rank": 2,
-     "title": "高端养老院报价让家庭望而却步",
-     "hot_value": 1260000
+     "title": "太平轮后周家蔡家对比明显",
+     "hot_value": 1200000
     },
     {
      "rank": 3,
-     "title": "大国工程重器进度条刷新",
-     "hot_value": 720000
+     "title": "多举措全力护航假期铁路返程",
+     "hot_value": 920000
     }
    ]
   },
@@ -148,17 +148,17 @@
     {
      "rank": 1,
      "title": "国庆高速免费将在今日24时截止",
-     "hot_value": 12100000
+     "hot_value": 12440000
     },
     {
      "rank": 2,
-     "title": "纵有万般不舍仍需返程",
-     "hot_value": 11800000
+     "title": "中微子是什么",
+     "hot_value": 11740000
     },
     {
      "rank": 3,
-     "title": "国庆文旅消费涌现新亮点",
-     "hot_value": 11690000
+     "title": "打开六张网建设新空间",
+     "hot_value": 11670000
     }
    ]
   },
@@ -268,17 +268,17 @@
     {
      "rank": 1,
      "title": "缅北电诈犯杀陌生人祭天，明珍珍死刑前微笑接受采访，为什么这些电诈犯这么嚣张？背后可能存在哪些保护伞？",
-     "hot_value": 21110000
+     "hot_value": 25280000
     },
     {
      "rank": 2,
      "title": "如何看待 C 罗就离队风波致歉并自请重罚？其或面临最高6个月禁赛，你认为他有可能顺利归队吗？",
-     "hot_value": 6030000
+     "hot_value": 5470000
     },
     {
      "rank": 3,
      "title": "如何看待急诊医生上班期间上厕所被投诉脱岗，医生调监控自证清白？",
-     "hot_value": 3720000
+     "hot_value": 3550000
     }
    ]
   },
@@ -312,13 +312,13 @@
     },
     {
      "rank": 2,
-     "title": "大国工程重器进度条刷新",
-     "hot_value": 2190000
+     "title": "假期出游归来速查这笔账",
+     "hot_value": 2130000
     },
     {
      "rank": 3,
-     "title": "南京大屠杀在册在世幸存者仅剩20人",
-     "hot_value": 1980000
+     "title": "演员王星案详细案情披露",
+     "hot_value": 1920000
     }
    ]
   },
