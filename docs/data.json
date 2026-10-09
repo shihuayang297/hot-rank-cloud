@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-10 01:00:00",
- "total_batches": 562,
+ "updated_at": "2026-10-10 02:00:00",
+ "total_batches": 563,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "AMD上调显卡指导价格",
+     "title": "山海君解析S16主题曲彩蛋",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "S16有自己的AI短剧",
+     "title": "AMD上调显卡指导价格",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "长征纪录片 永远的地球红飘带",
+     "title": "史上最大现金收购案始末",
      "hot_value": null
     }
    ]
@@ -88,17 +88,17 @@
     {
      "rank": 1,
      "title": "飞天奖获奖名单",
-     "hot_value": 1870000
+     "hot_value": 530000
     },
     {
      "rank": 2,
      "title": "王仁君飞天奖视帝",
-     "hot_value": 680000
+     "hot_value": 270000
     },
     {
      "rank": 3,
      "title": "十五五开局六张网齐铺开",
-     "hot_value": 560000
+     "hot_value": 220000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "现在才懂纯过日子假期的含金量",
-     "hot_value": 11780000
+     "hot_value": 11890000
     },
     {
      "rank": 3,
      "title": "国庆假期国内出游8.26亿人次",
-     "hot_value": 11770000
+     "hot_value": 11750000
     }
    ]
   },
@@ -228,17 +228,17 @@
     {
      "rank": 1,
      "title": "陶哲轩转发多位数学家抵制 OpenAI 的文章，怎么看待该观点？这将对 AI 数学研究带来哪些改变？",
-     "hot_value": 7080000
+     "hot_value": 5650000
     },
     {
      "rank": 2,
      "title": "宋佳获飞天视后实现大满贯，王仁君获视帝，如何评价第 35 届飞天奖获奖名单？",
-     "hot_value": 2750000
+     "hot_value": 3390000
     },
     {
      "rank": 3,
-     "title": "为什么北京大学简称“北大”，清华大学却简称“清华”而非“清大”？",
-     "hot_value": 2740000
+     "title": "如何评价最近爆火的“不烧心”梗？",
+     "hot_value": 2330000
     }
    ]
   },
@@ -273,12 +273,12 @@
     {
      "rank": 2,
      "title": "中欧成果共识清单发布",
-     "hot_value": 1970000
+     "hot_value": 1990000
     },
     {
      "rank": 3,
      "title": "五连胜！郑钦文重返中网四强",
-     "hot_value": 1760000
+     "hot_value": 1790000
     }
    ]
   },
