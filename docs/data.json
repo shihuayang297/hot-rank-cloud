@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-10 04:00:00",
- "total_batches": 565,
+ "updated_at": "2026-10-10 05:00:00",
+ "total_batches": 566,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "重庆狼队战胜南通Hero久竞 KPL",
-     "hot_value": null
-    },
-    {
-     "rank": 2,
      "title": "史上最大现金收购案始末",
      "hot_value": null
     },
     {
+     "rank": 2,
+     "title": "T1战胜PRX 上海冠军赛",
+     "hot_value": null
+    },
+    {
      "rank": 3,
-     "title": "詹姆斯首秀恩比德8失误",
+     "title": "长假出行体系发生了什么变化",
      "hot_value": null
     }
    ]
@@ -87,18 +87,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "女子仅退款9斤蜜薯称有本事来拿",
-     "hot_value": 270000
+     "title": "飞天奖获奖名单",
+     "hot_value": 140000
     },
     {
      "rank": 2,
-     "title": "飞天奖获奖名单",
-     "hot_value": 150000
+     "title": "盛家的儿女一个比一个争气",
+     "hot_value": 130000
     },
     {
      "rank": 3,
      "title": "十五五开局六张网齐铺开",
-     "hot_value": 120000
+     "hot_value": 80000
     }
    ]
   },
@@ -128,11 +128,11 @@
     {
      "rank": 1,
      "title": "NBA中国赛火箭战胜独行侠",
-     "hot_value": 12090000
+     "hot_value": 11470000
     },
     {
      "rank": 2,
-     "title": "现在才懂纯过日子假期的含金量",
+     "title": "中国海警正告菲方：停止不实炒作",
      "hot_value": 11430000
     },
     {
@@ -228,17 +228,17 @@
     {
      "rank": 1,
      "title": "宋佳获飞天视后实现大满贯，王仁君获视帝，如何评价第 35 届飞天奖获奖名单？",
-     "hot_value": 3910000
+     "hot_value": 3860000
     },
     {
      "rank": 2,
      "title": "如何评价最近爆火的“不烧心”梗？",
-     "hot_value": 2280000
+     "hot_value": 2220000
     },
     {
      "rank": 3,
      "title": "OpenAI 爆冷，1-9月年化营收低于预期200亿，美股、日经科技板块重挫，如何看其业绩影响？",
-     "hot_value": 2050000
+     "hot_value": 1940000
     }
    ]
   },
@@ -273,12 +273,12 @@
     {
      "rank": 2,
      "title": "中欧成果共识清单发布",
-     "hot_value": 2020000
+     "hot_value": 1850000
     },
     {
      "rank": 3,
      "title": "五连胜！郑钦文重返中网四强",
-     "hot_value": 1810000
+     "hot_value": 1650000
     }
    ]
   },
