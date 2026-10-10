@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-11 00:00:00",
- "total_batches": 585,
+ "updated_at": "2026-10-11 01:00:00",
+ "total_batches": 586,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "重庆狼队战胜济南RW侠 KPL",
+     "title": "管泽元Bin聊S赛新版本",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "美军拟直播枪决罪犯有哪些争议",
+     "title": "重庆狼队战胜济南RW侠 KPL",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "凡人第195集剧情细节解析",
+     "title": "美军拟直播枪决罪犯有哪些争议",
      "hot_value": null
     }
    ]
@@ -87,18 +87,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "打一针让癌细胞生锈而死",
-     "hot_value": 1150000
+     "title": "泰国警方回应大概率已被转至缅甸",
+     "hot_value": 870000
     },
     {
      "rank": 2,
-     "title": "郑钦文解释为何提醒观众",
-     "hot_value": 860000
+     "title": "明知不该买房却想要自己的家",
+     "hot_value": 730000
     },
     {
      "rank": 3,
      "title": "以青春之我建强农之业",
-     "hot_value": 650000
+     "hot_value": 510000
     }
    ]
   },
@@ -128,17 +128,17 @@
     {
      "rank": 1,
      "title": "郑钦文首进中网女单决赛",
-     "hot_value": 11960000
+     "hot_value": 11850000
     },
     {
      "rank": 2,
      "title": "上海申花7:1大胜云南玉昆",
-     "hot_value": 11810000
+     "hot_value": 11410000
     },
     {
      "rank": 3,
      "title": "解码绿色能源背后的大国重器",
-     "hot_value": 11400000
+     "hot_value": 11330000
     }
    ]
   },
@@ -228,17 +228,17 @@
     {
      "rank": 1,
      "title": "日媒曝黑客黑掉软银旗下云平台后留下225封勒索信，结果运维找7小时没发现勒索信只是一味重启，如何看待？",
-     "hot_value": 9480000
+     "hot_value": 10770000
     },
     {
      "rank": 2,
      "title": "男子在 ICU 抢救，母亲却取不出儿子存款救命，银行称家属须出具法定监护人身份证明，这规定合理吗？",
-     "hot_value": 6910000
+     "hot_value": 6760000
     },
     {
      "rank": 3,
      "title": "刘欢是怎么做到一天音乐学院都没上过，就能在音乐方面有这么大的造诣的？",
-     "hot_value": 6170000
+     "hot_value": 5040000
     }
    ]
   },
@@ -273,12 +273,12 @@
     {
      "rank": 2,
      "title": "郑钦文生涯首进中网女单决赛",
-     "hot_value": 2120000
+     "hot_value": 2070000
     },
     {
      "rank": 3,
      "title": "证监会：持续加强稳市机制建设",
-     "hot_value": 1910000
+     "hot_value": 1860000
     }
    ]
   },
