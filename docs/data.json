@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-12 00:00:00",
- "total_batches": 609,
+ "updated_at": "2026-10-12 01:00:00",
+ "total_batches": 610,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "成都AG超玩会战胜长沙TES.A KPL",
-     "hot_value": null
-    },
-    {
-     "rank": 2,
      "title": "大学生如何应对父母催谈恋爱",
      "hot_value": null
     },
     {
+     "rank": 2,
+     "title": "成都AG超玩会战胜长沙TES.A KPL",
+     "hot_value": null
+    },
+    {
      "rank": 3,
-     "title": "G2战胜T1 上海冠军赛",
+     "title": "杭州商K大面积关停的背后",
      "hot_value": null
     }
    ]
@@ -88,17 +88,17 @@
     {
      "rank": 1,
      "title": "霸王茶姬买一送一",
-     "hot_value": 5520000
+     "hot_value": 2860000
     },
     {
      "rank": 2,
      "title": "李娜 郑钦文",
-     "hot_value": 1920000
+     "hot_value": 970000
     },
     {
      "rank": 3,
-     "title": "我国经济回升向好态势持续巩固",
-     "hot_value": 1510000
+     "title": "本周这些数据值得关注",
+     "hot_value": 890000
     }
    ]
   },
@@ -127,18 +127,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "郑钦文首夺中网女单冠军",
-     "hot_value": 12240000
+     "title": "纯过日子就是好好生活",
+     "hot_value": 12140000
     },
     {
      "rank": 2,
-     "title": "纯过日子就是好好生活",
-     "hot_value": 12120000
+     "title": "郑钦文首夺中网女单冠军",
+     "hot_value": 12110000
     },
     {
      "rank": 3,
      "title": "2026世界市长对话洛阳",
-     "hot_value": 12110000
+     "hot_value": 11700000
     }
    ]
   },
@@ -228,17 +228,17 @@
     {
      "rank": 1,
      "title": "中网女单决赛，郑钦文 2-0 战胜安德列娃夺得冠军，如何评价本场比赛以及她的亮眼表现？",
-     "hot_value": 17660000
+     "hot_value": 16020000
     },
     {
      "rank": 2,
      "title": "大二专科生自述靠切片三年赚七百万，直播切片究竟是怎么赚钱的？这种赚钱模式能复制吗？",
-     "hot_value": 7430000
+     "hot_value": 6070000
     },
     {
      "rank": 3,
      "title": "为什么五子棋始终没有发展起来？",
-     "hot_value": 4430000
+     "hot_value": 4500000
     }
    ]
   },
@@ -273,12 +273,12 @@
     {
      "rank": 2,
      "title": "郑钦文首夺中网女单冠军",
-     "hot_value": 2050000
+     "hot_value": 2030000
     },
     {
      "rank": 3,
      "title": "夺冠后，郑钦文唱了一首歌",
-     "hot_value": 1840000
+     "hot_value": 1830000
     }
    ]
   },
