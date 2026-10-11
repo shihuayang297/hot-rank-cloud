@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-11 20:00:00",
- "total_batches": 605,
+ "updated_at": "2026-10-11 21:00:00",
+ "total_batches": 606,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "上海EDG.M战胜广州TTG KPL",
-     "hot_value": null
-    },
-    {
-     "rank": 2,
      "title": "大学生如何应对父母催谈恋爱",
      "hot_value": null
     },
     {
+     "rank": 2,
+     "title": "成都AG超玩会 vs 长沙TES.A KPL",
+     "hot_value": null
+    },
+    {
      "rank": 3,
-     "title": "杭州商K大面积关停的背后",
+     "title": "张雪机车葡萄牙站第二回合",
      "hot_value": null
     }
    ]
@@ -88,17 +88,17 @@
     {
      "rank": 1,
      "title": "郑钦文vs安德列娃",
-     "hot_value": 1390000
+     "hot_value": 2250000
     },
     {
      "rank": 2,
-     "title": "柳杰克表态台湾就是中国一个省",
-     "hot_value": 910000
+     "title": "华为被曝将推子品牌星芒",
+     "hot_value": 970000
     },
     {
      "rank": 3,
-     "title": "青春华章强农报国",
-     "hot_value": 850000
+     "title": "我国经济回升向好态势持续巩固",
+     "hot_value": 830000
     }
    ]
   },
@@ -127,18 +127,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "当北方人第一次闻桂花香",
-     "hot_value": 12110000
+     "title": "郑钦文中网冲冠",
+     "hot_value": 12120000
     },
     {
      "rank": 2,
-     "title": "郑钦文中网冲冠",
-     "hot_value": 12060000
+     "title": "当北方人第一次闻桂花香",
+     "hot_value": 12100000
     },
     {
      "rank": 3,
-     "title": "全国秋粮收获进度过半",
-     "hot_value": 12030000
+     "title": "2026世界市长对话洛阳",
+     "hot_value": 12050000
     }
    ]
   },
@@ -228,17 +228,17 @@
     {
      "rank": 1,
      "title": "沙特利雅得机场遭袭，造成 12 人死亡 309 人受伤，哪些信息值得关注？对中东局势有何影响？",
-     "hot_value": 24050000
+     "hot_value": 18110000
     },
     {
      "rank": 2,
      "title": "大二专科生自述靠切片三年赚七百万，直播切片究竟是怎么赚钱的？这种赚钱模式能复制吗？",
-     "hot_value": 8280000
+     "hot_value": 9220000
     },
     {
      "rank": 3,
      "title": "为什么五子棋始终没有发展起来？",
-     "hot_value": 4430000
+     "hot_value": 4740000
     }
    ]
   },
@@ -273,12 +273,12 @@
     {
      "rank": 2,
      "title": "郑钦文冲冠！图文直播中网决赛",
-     "hot_value": 2150000
+     "hot_value": 2020000
     },
     {
      "rank": 3,
      "title": "王曼昱成功实现卫冕",
-     "hot_value": 1950000
+     "hot_value": 1810000
     }
    ]
   },
@@ -287,17 +287,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "中央汇金公司发布声明",
+     "title": "乌美谈判因美俄柴油协议提前结束",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "“拖鞋军”打瘫沙特首都机场，防空警报没响，特朗普要下场？",
+     "title": "首盘挽救3盘点！中网女单决赛：郑钦文1-0安德列娃 第二盘3-3",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "中网女单决赛：郑钦文0-0安德列娃 冲击1000赛首冠 首盘2-2战平",
+     "title": "“拖鞋军”打瘫沙特首都机场，防空警报没响，特朗普要下场？",
      "hot_value": null
     }
    ]
