@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-13 04:00:00",
- "total_batches": 637,
+ "updated_at": "2026-10-13 05:00:00",
+ "total_batches": 638,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -32,12 +32,12 @@
     },
     {
      "rank": 2,
-     "title": "BFX战胜JDG 德玛西亚杯",
+     "title": "深圳DYG战胜北京WB KPL",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "深圳DYG战胜北京WB KPL",
+     "title": "BFX战胜JDG 德玛西亚杯",
      "hot_value": null
     }
    ]
@@ -48,17 +48,17 @@
     {
      "rank": 1,
      "title": "郑钦文团队一天就得花五万多块",
-     "hot_value": 110000
+     "hot_value": 90000
     },
     {
      "rank": 2,
-     "title": "霸王茶姬回应买一送一活动初衷",
+     "title": "小说里产后妻子被嘲丈夫出手",
      "hot_value": 60000
     },
     {
      "rank": 3,
      "title": "红星照耀中国",
-     "hot_value": 60000
+     "hot_value": 50000
     }
    ]
   },
@@ -73,12 +73,12 @@
     {
      "rank": 2,
      "title": "几度秋意浓最是桂花香",
-     "hot_value": 11010000
+     "hot_value": 11000000
     },
     {
      "rank": 3,
      "title": "新质生产力顶层设计释放强信号",
-     "hot_value": 10840000
+     "hot_value": 11000000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "新能源汽车出口退税率下调至9%",
-     "hot_value": 2200000
+     "hot_value": 2020000
     },
     {
      "rank": 3,
      "title": "郑钦文晒长城捧奖杯照片",
-     "hot_value": 2000000
+     "hot_value": 1820000
     }
    ]
   },
