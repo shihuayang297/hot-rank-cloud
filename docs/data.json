@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-12 10:00:00",
- "total_batches": 619,
+ "updated_at": "2026-10-12 11:00:00",
+ "total_batches": 620,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,57 +27,17 @@
    "items": [
     {
      "rank": 1,
+     "title": "央视曝光农业大棚被撂荒",
+     "hot_value": null
+    },
+    {
+     "rank": 2,
      "title": "Vitality3-0横扫MOUZ夺冠",
      "hot_value": null
     },
     {
-     "rank": 2,
-     "title": "5080显卡24GB或在明年发布",
-     "hot_value": null
-    },
-    {
      "rank": 3,
-     "title": "听这些老红军留下的声音",
-     "hot_value": null
-    }
-   ]
-  },
-  {
-   "name": "IT之家·资讯最新",
-   "items": [
-    {
-     "rank": 1,
-     "title": "苹果 iOS / iPadOS 26.7 正式版发布：修复安全问题",
-     "hot_value": null
-    },
-    {
-     "rank": 2,
-     "title": "苹果儿童安全功能随 iOS 27 等更新上线：新增时间额度，可阻止血腥暴力及裸露内容",
-     "hot_value": null
-    },
-    {
-     "rank": 3,
-     "title": "马斯克旗下 X 公司与 SpaceXAI 撤回对苹果的反垄断诉讼，针对 OpenAI 继续追责",
-     "hot_value": null
-    }
-   ]
-  },
-  {
-   "name": "IT之家·资讯热榜",
-   "items": [
-    {
-     "rank": 1,
-     "title": "消息称多家大厂派开发人员赴苹果总部，适配 iPhone Duo 折叠手机",
-     "hot_value": null
-    },
-    {
-     "rank": 2,
-     "title": "消息称苹果 iPhone 18 Pro 预售开启后香港地区出现“信用卡盗刷潮”：超 700 人报案、涉及金额约 1470 万港元",
-     "hot_value": null
-    },
-    {
-     "rank": 3,
-     "title": "消息称苹果调整门店规则：提前 5 分钟开门，全员须为首批顾客鼓掌",
+     "title": "数学家怎么看OpenAI的722篇论文",
      "hot_value": null
     }
    ]
@@ -87,38 +47,18 @@
    "items": [
     {
      "rank": 1,
+     "title": "霸王茶姬回应小程序崩了",
+     "hot_value": 1690000
+    },
+    {
+     "rank": 2,
      "title": "霸王茶姬买一送一",
-     "hot_value": 2090000
-    },
-    {
-     "rank": 2,
-     "title": "记者暗访有偿陪伴服务",
-     "hot_value": 970000
+     "hot_value": 1600000
     },
     {
      "rank": 3,
-     "title": "本周这些数据值得关注",
-     "hot_value": 760000
-    }
-   ]
-  },
-  {
-   "name": "快手热榜",
-   "items": [
-    {
-     "rank": 1,
-     "title": "金砖之约共绘全球南方新图景",
-     "hot_value": 0
-    },
-    {
-     "rank": 2,
-     "title": "国务院对青岛船厂火灾提级调查",
-     "hot_value": 12312000
-    },
-    {
-     "rank": 3,
-     "title": "今年最后一次金星伴月",
-     "hot_value": 12307000
+     "title": "探访东北虎豹国家公园",
+     "hot_value": 790000
     }
    ]
   },
@@ -132,73 +72,13 @@
     },
     {
      "rank": 2,
-     "title": "我的假日慢充宝藏城市",
-     "hot_value": 12050000
+     "title": "秋天的桂花香太治愈了",
+     "hot_value": 11720000
     },
     {
      "rank": 3,
-     "title": "2026世界市长对话洛阳",
-     "hot_value": 11970000
-    }
-   ]
-  },
-  {
-   "name": "掘金·文章综合榜",
-   "items": [
-    {
-     "rank": 1,
-     "title": "从codex转战workbuddy使用一周的感受",
-     "hot_value": 2000
-    },
-    {
-     "rank": 2,
-     "title": "iPhone Duo 适配详解，需要改变的不止是布局模型",
-     "hot_value": 792
-    },
-    {
-     "rank": 3,
-     "title": "被吹上天的 JWT，为什么主流网站一个都不用",
-     "hot_value": 621
-    }
-   ]
-  },
-  {
-   "name": "极客公园资讯",
-   "items": [
-    {
-     "rank": 1,
-     "title": "专访爆火「机器鸭」背后的硬件推手：这是个信号，未来推动新故事的并非硬件",
-     "hot_value": null
-    },
-    {
-     "rank": 2,
-     "title": "苹果的折叠屏等了十五年，体验还差临门一脚",
-     "hot_value": null
-    },
-    {
-     "rank": 3,
-     "title": "OpenAI、Anthropic 再次发出「AI 末日」警告；小米澎程今日全国交付；Deepseek 灰度测试 AI 语音对话",
-     "hot_value": null
-    }
-   ]
-  },
-  {
-   "name": "果壳热门榜",
-   "items": [
-    {
-     "rank": 1,
-     "title": "被误解多年的“国民油”，成分不输橄榄油，炒菜健康又实惠！",
-     "hot_value": null
-    },
-    {
-     "rank": 2,
-     "title": "苹果更新App Store审核指南；Microsoft 365 Copilot引入xAI Grok模型；25位菲尔兹奖得主联合发表声明",
-     "hot_value": null
-    },
-    {
-     "rank": 3,
-     "title": "以为在锻炼其实在玩命：居家健身“翻车”图鉴",
-     "hot_value": null
+     "title": "我国物流业景气水平进一步提升",
+     "hot_value": 11720000
     }
    ]
   },
@@ -207,17 +87,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "每一代人都要走好自己的长征路",
+     "title": "夯实中国式现代化的健康根基",
      "hot_value": 7900000
     },
     {
      "rank": 2,
-     "title": "央视曝投资1.2亿项目仅建5个棚",
+     "title": "“拖鞋军”打瘫沙特首都机场",
      "hot_value": 7810000
     },
     {
      "rank": 3,
-     "title": "沙特遭遇十年来最惨袭击",
+     "title": "“被这个巨无霸震撼到了”",
      "hot_value": 7710000
     }
    ]
@@ -228,37 +108,17 @@
     {
      "rank": 1,
      "title": "男子国庆被排 7 天班 1 天都没去遭开除，法院判公司合法解除，从法律角度该如何解读？",
-     "hot_value": 6970000
+     "hot_value": 13420000
     },
     {
      "rank": 2,
      "title": "儿科医生按号顺序抢救车祸重伤儿童，后一位家长插队被拒后打电话投诉，此事背后反映了哪些问题？",
-     "hot_value": 6800000
+     "hot_value": 7210000
     },
     {
      "rank": 3,
      "title": "女子3个月对盒马399件商品申请仅退款，快递员取件退还吃剩的，涉嫌诈骗罪被采取刑事强制，如何看待此事？",
-     "hot_value": 3200000
-    }
-   ]
-  },
-  {
-   "name": "网易新闻",
-   "items": [
-    {
-     "rank": 1,
-     "title": "意甲精彩一夜！2-1，2-0，5-3！2队4连胜，积分榜：罗马国米前二",
-     "hot_value": null
-    },
-    {
-     "rank": 2,
-     "title": "罗德里：决定加盟巴萨后我给穆帅打了电话，感谢他的兴趣",
-     "hot_value": null
-    },
-    {
-     "rank": 3,
-     "title": "国米踢疯了！5-3逆转+意甲4连胜，联赛只排第二，罗马完胜登顶",
-     "hot_value": null
+     "hot_value": 3600000
     }
    ]
   },
@@ -267,8 +127,8 @@
    "items": [
     {
      "rank": 1,
-     "title": "习近平总书记同卫生健康工作者的故事",
-     "hot_value": 1140000
+     "title": "大道致远，笃行不怠",
+     "hot_value": 490000
     },
     {
      "rank": 2,
@@ -278,7 +138,7 @@
     {
      "rank": 3,
      "title": "075舰两大登陆神器合体实力强",
-     "hot_value": 2270000
+     "hot_value": 2280000
     }
    ]
   },
@@ -287,17 +147,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "胡塞武装与沙特持续互袭机场 美若介入中东战事有升级风险",
+     "title": "潘良，受贿数额特别巨大",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "沙特方面公布利雅得机场遭袭画面",
+     "title": "胡塞武装与沙特持续互袭机场 美若介入中东战事有升级风险",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "凌晨2点26，郑钦文晒图庆祝中网夺冠：献给一直为梦想努力的自己",
+     "title": "沙特方面公布利雅得机场遭袭画面",
      "hot_value": null
     }
    ]
