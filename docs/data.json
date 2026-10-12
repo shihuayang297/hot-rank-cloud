@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-13 00:00:00",
- "total_batches": 633,
+ "updated_at": "2026-10-13 01:00:00",
+ "total_batches": 634,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,12 +27,12 @@
    "items": [
     {
      "rank": 1,
-     "title": "深圳DYG战胜北京WB KPL",
+     "title": "李秀满新女团出道曲MV",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "李秀满新女团出道曲MV",
+     "title": "BFX战胜JDG赛后数据",
      "hot_value": null
     },
     {
@@ -48,17 +48,17 @@
     {
      "rank": 1,
      "title": "郑钦文收入九成来自代言",
-     "hot_value": 1680000
+     "hot_value": 740000
     },
     {
      "rank": 2,
-     "title": "我不是药神原型陆勇即将停药",
-     "hot_value": 1070000
+     "title": "武网施晗爆冷淘汰伊埃拉",
+     "hot_value": 570000
     },
     {
      "rank": 3,
-     "title": "万千气象看辽宁",
-     "hot_value": 880000
+     "title": "红星照耀中国",
+     "hot_value": 560000
     }
    ]
   },
@@ -73,12 +73,12 @@
     {
      "rank": 2,
      "title": "几度秋意浓最是桂花香",
-     "hot_value": 11310000
+     "hot_value": 11000000
     },
     {
      "rank": 3,
      "title": "新质生产力顶层设计释放强信号",
-     "hot_value": 11060000
+     "hot_value": 10970000
     }
    ]
   },
@@ -92,7 +92,7 @@
     },
     {
      "rank": 2,
-     "title": "蛋价跌回“4元时代”",
+     "title": "两款燃油车重回销量榜前十",
      "hot_value": 7810000
     },
     {
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "新能源汽车出口退税率下调至9%",
-     "hot_value": 2480000
+     "hot_value": 2340000
     },
     {
      "rank": 3,
      "title": "郑钦文晒长城捧奖杯照片",
-     "hot_value": 2270000
+     "hot_value": 2130000
     }
    ]
   },
