@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-14 04:00:00",
- "total_batches": 661,
+ "updated_at": "2026-10-14 05:00:00",
+ "total_batches": 662,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "DRAM内存短缺或持续到2028年",
-     "hot_value": null
-    },
-    {
-     "rank": 2,
      "title": "BRO战胜LGD 德玛西亚杯",
      "hot_value": null
     },
     {
+     "rank": 2,
+     "title": "DRAM内存短缺或持续到2028年",
+     "hot_value": null
+    },
+    {
      "rank": 3,
-     "title": "承包山东大集能买到多少快乐",
+     "title": "Gemini 4 Argon或将开放",
      "hot_value": null
     }
    ]
@@ -48,17 +48,17 @@
     {
      "rank": 1,
      "title": "红果短剧千万别下载",
-     "hot_value": 500000
+     "hot_value": 370000
     },
     {
      "rank": 2,
      "title": "京城大师赛蹄蹄作弊被抓",
-     "hot_value": 150000
+     "hot_value": 100000
     },
     {
      "rank": 3,
      "title": "永不褪色的红飘带",
-     "hot_value": 140000
+     "hot_value": 80000
     }
    ]
   },
@@ -73,12 +73,12 @@
     {
      "rank": 2,
      "title": "欧冠加拉塔萨雷vs巴萨",
-     "hot_value": 11230000
+     "hot_value": 11280000
     },
     {
      "rank": 3,
      "title": "红星照耀中国",
-     "hot_value": 11090000
+     "hot_value": 11190000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "全国秋冬进程图解读来了",
-     "hot_value": 1990000
+     "hot_value": 1890000
     },
     {
      "rank": 3,
      "title": "未来五年看病就医会有哪些新变化？",
-     "hot_value": 1780000
+     "hot_value": 1680000
     }
    ]
   },
