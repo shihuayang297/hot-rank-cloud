@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-14 22:00:00",
- "total_batches": 679,
+ "updated_at": "2026-10-14 23:00:00",
+ "total_batches": 680,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "重庆狼队 vs 杭州LGD.NBW KPL",
+     "title": "杭州LGD.NBW战胜重庆狼队 KPL",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "如何从零开始学习AI",
+     "title": "朱雀二号改进型遥四运载火箭发射成功",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "朱雀二号改进型遥四运载火箭发射成功",
+     "title": "Opus5.5还原田柯宇模型投毒事件",
      "hot_value": null
     }
    ]
@@ -47,18 +47,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "香港周生生发生珠宝劫案",
-     "hot_value": 1130000
+     "title": "入职第一天因截图社死",
+     "hot_value": 2160000
     },
     {
      "rank": 2,
-     "title": "CPI",
-     "hot_value": 850000
+     "title": "香港周生生发生珠宝劫案",
+     "hot_value": 960000
     },
     {
      "rank": 3,
      "title": "全国秋粮收获进入高峰期",
-     "hot_value": 650000
+     "hot_value": 750000
     }
    ]
   },
@@ -68,17 +68,17 @@
     {
      "rank": 1,
      "title": "中朝新鸭绿江大桥将开通",
-     "hot_value": 12820000
+     "hot_value": 12850000
     },
     {
      "rank": 2,
-     "title": "秋天这样穿不烧心",
-     "hot_value": 12130000
+     "title": "美国9月CPI同比上涨3.7%",
+     "hot_value": 12140000
     },
     {
      "rank": 3,
      "title": "这口水缸藏着长征的胜利密码",
-     "hot_value": 12020000
+     "hot_value": 12070000
     }
    ]
   },
@@ -92,12 +92,12 @@
     },
     {
      "rank": 2,
-     "title": "2027年或成史上最热一年",
+     "title": "今年双11告别算数题",
      "hot_value": 7810000
     },
     {
      "rank": 3,
-     "title": "官方介入女摊主遭差评后轻生离世",
+     "title": "多地组织筛查干部档案 有何深意",
      "hot_value": 7710000
     }
    ]
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "微信上线绿泡泡短剧，腾讯此前多次进军短剧市场都效果平平，这次能成功吗？能撼动红果的地位吗？",
-     "hot_value": 4380000
+     "hot_value": 5150000
     },
     {
      "rank": 2,
-     "title": "王星自曝在缅甸手机被拿走刷网贷，从法律角度看，被胁迫借下的网贷该还吗？",
-     "hot_value": 3490000
+     "title": "《琅琊榜》的权谋真的很幼稚吗？",
+     "hot_value": 2850000
     },
     {
      "rank": 3,
-     "title": "怎么看 OpenAI 的 NS 数学证明被发现其实没遵循 Spanish program？",
-     "hot_value": 2610000
+     "title": "为什么《兰香如故》电视剧，女主结婚从丫鬟到豪门贵妇就劝退了观众？",
+     "hot_value": 2820000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "一箭十星！朱雀二号发射成功",
-     "hot_value": 2610000
+     "hot_value": 2520000
     },
     {
      "rank": 3,
      "title": "国铁：新版车次编排规则将启用",
-     "hot_value": 2410000
+     "hot_value": 2320000
     }
    ]
   },
@@ -147,7 +147,7 @@
    "items": [
     {
      "rank": 1,
-     "title": "上海市人民政府关于朱忠明等同志职务任免的通知",
+     "title": "“北漂”白宫首秀，“惨不忍睹”",
      "hot_value": null
     },
     {
