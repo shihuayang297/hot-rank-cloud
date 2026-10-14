@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-15 00:00:00",
- "total_batches": 681,
+ "updated_at": "2026-10-15 01:00:00",
+ "total_batches": 682,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "杭州LGD.NBW战胜重庆狼队 KPL",
+     "title": "Karsa终于跟RNG老队友重逢",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "广东地区什么时候才能入秋",
+     "title": "朱雀二号改进型遥四运载火箭发射成功",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "朱雀二号改进型遥四运载火箭发射成功",
+     "title": "如何从零开始学习AI",
      "hot_value": null
     }
    ]
@@ -48,17 +48,17 @@
     {
      "rank": 1,
      "title": "入职第一天因截图社死",
-     "hot_value": 2030000
+     "hot_value": 1360000
     },
     {
      "rank": 2,
      "title": "好一个乖乖女热度登顶",
-     "hot_value": 990000
+     "hot_value": 820000
     },
     {
      "rank": 3,
-     "title": "全国秋粮收获进入高峰期",
-     "hot_value": 760000
+     "title": "90多年前红军的承诺生生不息",
+     "hot_value": 480000
     }
    ]
   },
@@ -67,18 +67,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "中朝新鸭绿江大桥将开通",
-     "hot_value": 12790000
+     "title": "美国9月CPI同比上涨3.7%",
+     "hot_value": 12580000
     },
     {
      "rank": 2,
-     "title": "美国9月CPI同比上涨3.7%",
+     "title": "中朝新鸭绿江大桥将开通",
      "hot_value": 12130000
     },
     {
      "rank": 3,
      "title": "这口水缸藏着长征的胜利密码",
-     "hot_value": 12070000
+     "hot_value": 12100000
     }
    ]
   },
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "微信上线绿泡泡短剧，腾讯此前多次进军短剧市场都效果平平，这次能成功吗？能撼动红果的地位吗？",
-     "hot_value": 6270000
+     "hot_value": 6680000
     },
     {
      "rank": 2,
      "title": "《琅琊榜》的权谋真的很幼稚吗？",
-     "hot_value": 3530000
+     "hot_value": 3960000
     },
     {
      "rank": 3,
      "title": "为什么《兰香如故》电视剧，女主结婚从丫鬟到豪门贵妇就劝退了观众？",
-     "hot_value": 3430000
+     "hot_value": 2960000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "一箭十星！朱雀二号发射成功",
-     "hot_value": 2320000
+     "hot_value": 2270000
     },
     {
      "rank": 3,
      "title": "多地组织筛查干部档案 有何深意",
-     "hot_value": 2110000
+     "hot_value": 2060000
     }
    ]
   },
