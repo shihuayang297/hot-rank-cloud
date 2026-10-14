@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-15 03:00:00",
- "total_batches": 684,
+ "updated_at": "2026-10-15 04:00:00",
+ "total_batches": 685,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -48,12 +48,12 @@
     {
      "rank": 1,
      "title": "入职第一天因截图社死",
-     "hot_value": 370000
+     "hot_value": 210000
     },
     {
      "rank": 2,
      "title": "好一个乖乖女热度登顶",
-     "hot_value": 290000
+     "hot_value": 160000
     },
     {
      "rank": 3,
@@ -68,17 +68,17 @@
     {
      "rank": 1,
      "title": "中朝新鸭绿江大桥将开通",
-     "hot_value": 12470000
+     "hot_value": 12450000
     },
     {
      "rank": 2,
      "title": "美国9月CPI同比上涨3.7%",
-     "hot_value": 12110000
+     "hot_value": 12100000
     },
     {
      "rank": 3,
      "title": "这口水缸藏着长征的胜利密码",
-     "hot_value": 11990000
+     "hot_value": 12020000
     }
    ]
   },
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "微信上线绿泡泡短剧，腾讯此前多次进军短剧市场都效果平平，这次能成功吗？能撼动红果的地位吗？",
-     "hot_value": 3970000
+     "hot_value": 3630000
     },
     {
      "rank": 2,
      "title": "怎么看 OpenAI 的 NS 数学证明被发现其实没遵循 Spanish program？",
-     "hot_value": 2590000
+     "hot_value": 2350000
     },
     {
      "rank": 3,
      "title": "国台办回应蔡康永现身沈伯洋竞选活动，在大是大非问题上没有任何模糊的空间，哪些信息值得关注？",
-     "hot_value": 2250000
+     "hot_value": 2090000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "一箭十星！朱雀二号发射成功",
-     "hot_value": 2160000
+     "hot_value": 2120000
     },
     {
      "rank": 3,
      "title": "多地组织筛查干部档案 有何深意",
-     "hot_value": 1960000
+     "hot_value": 1910000
     }
    ]
   },
