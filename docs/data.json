@@ -1,23 +1,23 @@
 {
- "updated_at": "2026-10-16 06:00:00",
- "total_batches": 711,
+ "updated_at": "2026-10-16 07:00:00",
+ "total_batches": 712,
  "platforms": [
   {
    "name": "60秒看世界",
    "items": [
     {
      "rank": 1,
-     "title": "习近平向第140届广交会致贺信，李强出席开幕式发表主旨演讲；",
+     "title": "李强将访问乌兹别克斯坦、塔吉克斯坦并出席上合组织总理会议；",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "9月全国CPI同比上涨0.9%，涨幅比上月扩大0.1个百分点；",
+     "title": "男子高铁座位上排便被行拘，广铁长沙段通报已全面清洁消毒；",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "2026年“社保服务进万家”活动14日在全国启动，上门解疑；",
+     "title": "朱雀二号改进型遥四火箭一箭十星发射成功，10颗卫星入预定轨道；",
      "hot_value": null
     }
    ]
@@ -32,12 +32,12 @@
     },
     {
      "rank": 2,
-     "title": "上海EDG.M战胜成都AG超玩会 KPL",
+     "title": "AI为何会欺骗人类",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "S16谁是夺冠热门",
+     "title": "英伟达RTX Spark性能分析",
      "hot_value": null
     }
    ]
@@ -48,17 +48,17 @@
     {
      "rank": 1,
      "title": "深圳全市全天禁鸣喇叭5年",
-     "hot_value": 240000
+     "hot_value": 640000
     },
     {
      "rank": 2,
      "title": "大龄读研见老师两面就退学",
-     "hot_value": 170000
+     "hot_value": 470000
     },
     {
      "rank": 3,
      "title": "起初他们参加红军只为找条活路",
-     "hot_value": 140000
+     "hot_value": 370000
     }
    ]
   },
@@ -68,12 +68,12 @@
     {
      "rank": 1,
      "title": "抖音商城双11超级补贴来啦",
-     "hot_value": 11590000
+     "hot_value": 11510000
     },
     {
      "rank": 2,
      "title": "当我拥有自己的ai播放器",
-     "hot_value": 10910000
+     "hot_value": 11100000
     },
     {
      "rank": 3,
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "如何看待胖东来梦之城项目按照标准施工，被夸完全教科书级？",
-     "hot_value": 12860000
+     "hot_value": 8340000
     },
     {
      "rank": 2,
      "title": "如何评价DeepSeek停摆5小时后，按最近七日api消耗向用户发放补偿赠金？",
-     "hot_value": 4790000
+     "hot_value": 3070000
     },
     {
      "rank": 3,
      "title": "1 岁宝宝吃下被邻居投毒的鸡蛋后进 ICU，邻居自首称「想毒黄鼠狼」，你怎么看？邻居该担什么法律责任？",
-     "hot_value": 2870000
+     "hot_value": 2120000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "殷玉珍等3名中国女性获殊荣",
-     "hot_value": 1990000
+     "hot_value": 2020000
     },
     {
      "rank": 3,
      "title": "潘功胜最新发声",
-     "hot_value": 1790000
+     "hot_value": 1810000
     }
    ]
   },
