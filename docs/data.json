@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-15 10:00:00",
- "total_batches": 691,
+ "updated_at": "2026-10-15 11:00:00",
+ "total_batches": 692,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "巴黎终结曼城8连胜",
-     "hot_value": null
-    },
-    {
-     "rank": 2,
      "title": "OpenAI称攻克NS方程问题为何引争议",
      "hot_value": null
     },
     {
-     "rank": 3,
+     "rank": 2,
      "title": "长鑫发布4F²架构",
+     "hot_value": null
+    },
+    {
+     "rank": 3,
+     "title": "DeepSeek崩了",
      "hot_value": null
     }
    ]
@@ -48,17 +48,17 @@
     {
      "rank": 1,
      "title": "豆包对低认知人群有权威性",
-     "hot_value": 2880000
+     "hot_value": 1760000
     },
     {
      "rank": 2,
-     "title": "知否里的台词值得全文背诵",
-     "hot_value": 1040000
+     "title": "兰香电视剧到底在歌颂什么",
+     "hot_value": 960000
     },
     {
      "rank": 3,
-     "title": "把保障人民健康融入各项政策",
-     "hot_value": 880000
+     "title": "90多年前30万人严守一个秘密",
+     "hot_value": 730000
     }
    ]
   },
@@ -67,18 +67,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "小鹏正式宣布对外卖技术",
-     "hot_value": 12340000
+     "title": "中朝新鸭绿江大桥今日开通",
+     "hot_value": 12080000
     },
     {
      "rank": 2,
-     "title": "中朝新鸭绿江大桥将开通",
-     "hot_value": 11710000
+     "title": "小鹏正式宣布对外卖技术",
+     "hot_value": 12070000
     },
     {
      "rank": 3,
-     "title": "这口水缸藏着长征的胜利密码",
-     "hot_value": 11630000
+     "title": "我国风电装机规模稳居世界第一",
+     "hot_value": 11410000
     }
    ]
   },
@@ -87,7 +87,7 @@
    "items": [
     {
      "rank": 1,
-     "title": "习近平向中国进出口商品交易会致贺信",
+     "title": "看邮票里的万水千山",
      "hot_value": 7900000
     },
     {
@@ -97,7 +97,7 @@
     },
     {
      "rank": 3,
-     "title": "中国发现侏罗纪新鸟",
+     "title": "DeepSeek崩了",
      "hot_value": 7710000
     }
    ]
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "如何评价博主「北美花生就是我」爆料懂车帝曾测试出丰田赛那车型后摆臂断裂，但未进行发布？",
-     "hot_value": 22550000
+     "hot_value": 36620000
     },
     {
      "rank": 2,
      "title": "「耻辱」合影事件最新进展，雷波县教体局局长已被调离，这样的处置方式如何？",
-     "hot_value": 5280000
+     "hot_value": 6620000
     },
     {
      "rank": 3,
      "title": "红楼梦中王子腾是四大家族最大靠山，却没有被正面描写，是一种神秘的存在。王子腾究竟是一个什么样的人物？",
-     "hot_value": 3670000
+     "hot_value": 3080000
     }
    ]
   },
@@ -127,18 +127,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "习近平向中国进出口商品交易会致贺信",
-     "hot_value": 1040000
+     "title": "为世界发展繁荣持续注入新动力",
+     "hot_value": 530000
     },
     {
      "rank": 2,
      "title": "杨利伟上太空已经23年了",
-     "hot_value": 2310000
+     "hot_value": 2490000
     },
     {
      "rank": 3,
      "title": "中国新能源车实力横扫海外",
-     "hot_value": 2100000
+     "hot_value": 2280000
     }
    ]
   },
@@ -147,17 +147,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "这次，美防长没点名中国",
+     "title": "也门：胡塞武装用中企零件，我们找了中方",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "王毅会见俄罗斯外长拉夫罗夫",
+     "title": "老百姓纯过日子，影响了谁的生意？",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "欧盟谋求更多关键矿产：中国不给就找越南，可还得防着美国",
+     "title": "王凤朝，受贿数额特别巨大",
      "hot_value": null
     }
    ]
