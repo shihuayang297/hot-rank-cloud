@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-16 01:00:00",
- "total_batches": 706,
+ "updated_at": "2026-10-16 02:00:00",
+ "total_batches": 707,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,12 +27,12 @@
    "items": [
     {
      "rank": 1,
-     "title": "广州TTG战胜长沙TES.A KPL",
+     "title": "WE战胜BRO 德玛西亚杯",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "英伟达RTX Spark性能分析",
+     "title": "DeepSeek宣布故障补偿方案",
      "hot_value": null
     },
     {
@@ -48,17 +48,17 @@
     {
      "rank": 1,
      "title": "深圳全市全天禁鸣喇叭5年",
-     "hot_value": 1000000
+     "hot_value": 590000
     },
     {
      "rank": 2,
-     "title": "TES经理回应ZUIAN签证问题",
-     "hot_value": 580000
+     "title": "大龄读研见老师两面就退学",
+     "hot_value": 280000
     },
     {
      "rank": 3,
      "title": "起初他们参加红军只为找条活路",
-     "hot_value": 460000
+     "hot_value": 220000
     }
    ]
   },
@@ -67,18 +67,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "抖音商城双11超级补贴来啦",
-     "hot_value": 12210000
+     "title": "当我拥有自己的ai播放器",
+     "hot_value": 12150000
     },
     {
      "rank": 2,
-     "title": "当我拥有自己的ai播放器",
-     "hot_value": 11600000
+     "title": "抖音商城双11超级补贴来啦",
+     "hot_value": 11760000
     },
     {
      "rank": 3,
      "title": "第140届广交会开展",
-     "hot_value": 9840000
+     "hot_value": 10130000
     }
    ]
   },
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "如何看待胖东来梦之城项目按照标准施工，被夸完全教科书级？",
-     "hot_value": 21520000
+     "hot_value": 21170000
     },
     {
      "rank": 2,
      "title": "长实集团回应李嘉诚去世传闻称「绝无其事」，目前李嘉诚的身体状况如何？",
-     "hot_value": 11770000
+     "hot_value": 8620000
     },
     {
      "rank": 3,
      "title": "如何评价DeepSeek停摆5小时后，按最近七日api消耗向用户发放补偿赠金？",
-     "hot_value": 5830000
+     "hot_value": 6110000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "殷玉珍等3名中国女性获殊荣",
-     "hot_value": 2030000
+     "hot_value": 2110000
     },
     {
      "rank": 3,
      "title": "潘功胜最新发声",
-     "hot_value": 1830000
+     "hot_value": 1900000
     }
    ]
   },
