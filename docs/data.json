@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-17 02:00:00",
- "total_batches": 731,
+ "updated_at": "2026-10-17 03:00:00",
+ "total_batches": 732,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,7 +27,7 @@
    "items": [
     {
      "rank": 1,
-     "title": "大范围雨雪将至",
+     "title": "KC vs MVK S16",
      "hot_value": null
     },
     {
@@ -48,17 +48,17 @@
     {
      "rank": 1,
      "title": "母亲将大一儿子生活费从4000降至2000",
-     "hot_value": 360000
+     "hot_value": 180000
     },
     {
      "rank": 2,
      "title": "抖音起诉京东员工",
-     "hot_value": 260000
+     "hot_value": 120000
     },
     {
      "rank": 3,
      "title": "中央红军长征路线全览",
-     "hot_value": 210000
+     "hot_value": 80000
     }
    ]
   },
@@ -68,17 +68,17 @@
     {
      "rank": 1,
      "title": "国防部回应菲方多次挑衅行径",
-     "hot_value": 12110000
+     "hot_value": 12100000
     },
     {
      "rank": 2,
      "title": "喀纳斯秋日实况",
-     "hot_value": 12110000
+     "hot_value": 11890000
     },
     {
      "rank": 3,
      "title": "胜利山上望征途",
-     "hot_value": 11880000
+     "hot_value": 11140000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "养老服务收费新政将迎来变化",
-     "hot_value": 1990000
+     "hot_value": 1950000
     },
     {
      "rank": 3,
      "title": "冷空气登场 南北方温差可达15℃",
-     "hot_value": 1780000
+     "hot_value": 1740000
     }
    ]
   },
