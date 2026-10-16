@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-16 17:00:00",
- "total_batches": 722,
+ "updated_at": "2026-10-16 18:00:00",
+ "total_batches": 723,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -32,12 +32,12 @@
     },
     {
      "rank": 2,
-     "title": "VIT vs LOUD 上海冠军赛",
+     "title": "北京WB vs 南通Hero久竞 KPL",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "HAHA河东勋入驻B站",
+     "title": "OpenAI向数学界捐赠500万美元",
      "hot_value": null
     }
    ]
@@ -47,18 +47,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "日本误报9.9级地震",
-     "hot_value": 1110000
+     "title": "何小鹏谈特斯拉Roadster会飞",
+     "hot_value": 1160000
     },
     {
      "rank": 2,
-     "title": "芒果真的拍了再见朋友",
-     "hot_value": 1100000
+     "title": "日本误报9.9级地震",
+     "hot_value": 820000
     },
     {
      "rank": 3,
      "title": "第140届广交会有哪些新亮点",
-     "hot_value": 1100000
+     "hot_value": 660000
     }
    ]
   },
@@ -68,17 +68,17 @@
     {
      "rank": 1,
      "title": "英雄联盟S16世界赛开赛",
-     "hot_value": 12320000
+     "hot_value": 12080000
     },
     {
      "rank": 2,
      "title": "淡人早秋穿搭",
-     "hot_value": 12090000
+     "hot_value": 11230000
     },
     {
      "rank": 3,
      "title": "中国方案赋能全球算力",
-     "hot_value": 10650000
+     "hot_value": 10190000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "长征路上的照相馆 至今仍营业",
-     "hot_value": 2290000
+     "hot_value": 2200000
     },
     {
      "rank": 3,
      "title": "养老服务价格文件发布",
-     "hot_value": 2080000
+     "hot_value": 1990000
     }
    ]
   },
