@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-16 19:00:00",
- "total_batches": 724,
+ "updated_at": "2026-10-16 20:00:00",
+ "total_batches": 725,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,7 +27,7 @@
    "items": [
     {
      "rank": 1,
-     "title": "北京WB战胜南通Hero久竞 KPL",
+     "title": "G2 vs 100T 上海冠军赛",
      "hot_value": null
     },
     {
@@ -37,7 +37,7 @@
     },
     {
      "rank": 3,
-     "title": "天水幼儿血铅案一审宣判",
+     "title": "DeepSeek整合成立产品部",
      "hot_value": null
     }
    ]
@@ -48,17 +48,17 @@
     {
      "rank": 1,
      "title": "天水幼儿血铅案一审宣判",
-     "hot_value": 1650000
+     "hot_value": 1370000
     },
     {
      "rank": 2,
-     "title": "香港名媛碎尸案庭审曝惊人场面",
-     "hot_value": 910000
+     "title": "乡政府拖欠工程款5000万称无力偿还",
+     "hot_value": 890000
     },
     {
      "rank": 3,
      "title": "第140届广交会有哪些新亮点",
-     "hot_value": 740000
+     "hot_value": 890000
     }
    ]
   },
@@ -68,17 +68,17 @@
     {
      "rank": 1,
      "title": "英雄联盟S16世界赛开赛",
-     "hot_value": 11860000
+     "hot_value": 12160000
     },
     {
      "rank": 2,
      "title": "天水幼儿血铅案一审宣判",
-     "hot_value": 10540000
+     "hot_value": 12090000
     },
     {
      "rank": 3,
      "title": "中国方案赋能全球算力",
-     "hot_value": 10450000
+     "hot_value": 11910000
     }
    ]
   },
@@ -87,7 +87,7 @@
    "items": [
     {
      "rank": 1,
-     "title": "答好“长征三问”坚定必胜信念",
+     "title": "习近平在内蒙古乌兰察布考察",
      "hot_value": 7900000
     },
     {
@@ -127,18 +127,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "习近平致信祝贺湖南大学建校100周年",
-     "hot_value": 980000
+     "title": "习近平在内蒙古乌兰察布考察",
+     "hot_value": 1040000
     },
     {
      "rank": 2,
      "title": "长征路上的照相馆 至今仍营业",
-     "hot_value": 2060000
+     "hot_value": 2470000
     },
     {
      "rank": 3,
      "title": "养老服务价格文件发布",
-     "hot_value": 1860000
+     "hot_value": 2270000
     }
    ]
   },
