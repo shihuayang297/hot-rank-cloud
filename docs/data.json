@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-17 05:00:00",
- "total_batches": 734,
+ "updated_at": "2026-10-17 06:00:00",
+ "total_batches": 735,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,12 +27,12 @@
    "items": [
     {
      "rank": 1,
-     "title": "KC vs MVK S16",
+     "title": "S16入围赛Day2",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "S16入围赛首日有多离谱",
+     "title": "大范围雨雪将至",
      "hot_value": null
     },
     {
@@ -48,17 +48,17 @@
     {
      "rank": 1,
      "title": "母亲将大一儿子生活费从4000降至2000",
-     "hot_value": 100000
+     "hot_value": 280000
     },
     {
      "rank": 2,
      "title": "特斯拉SpaceX大跌",
-     "hot_value": 80000
+     "hot_value": 190000
     },
     {
      "rank": 3,
      "title": "中央红军长征路线全览",
-     "hot_value": 70000
+     "hot_value": 150000
     }
    ]
   },
@@ -67,18 +67,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "国防部回应菲方多次挑衅行径",
-     "hot_value": 11730000
+     "title": "马杜罗夫妇纽约出庭否认新增指控",
+     "hot_value": 11620000
     },
     {
      "rank": 2,
-     "title": "喀纳斯秋日实况",
-     "hot_value": 11710000
+     "title": "国防部回应菲方多次挑衅行径",
+     "hot_value": 11420000
     },
     {
      "rank": 3,
      "title": "胜利山上望征途",
-     "hot_value": 11310000
+     "hot_value": 11280000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "养老服务收费新政将迎来变化",
-     "hot_value": 2160000
+     "hot_value": 2320000
     },
     {
      "rank": 3,
      "title": "冷空气登场 南北方温差可达15℃",
-     "hot_value": 1950000
+     "hot_value": 2120000
     }
    ]
   },
