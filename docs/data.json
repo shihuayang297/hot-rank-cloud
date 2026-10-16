@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-16 16:00:00",
- "total_batches": 721,
+ "updated_at": "2026-10-16 17:00:00",
+ "total_batches": 722,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "VIT vs LOUD 上海冠军赛",
+     "title": "日本误报9.9级地震",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "UP主手搓飞行滑板",
+     "title": "VIT vs LOUD 上海冠军赛",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "中国豆浆在非洲小学火了",
+     "title": "HAHA河东勋入驻B站",
      "hot_value": null
     }
    ]
@@ -47,18 +47,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "芒果真的拍了再见朋友",
-     "hot_value": 1080000
+     "title": "日本误报9.9级地震",
+     "hot_value": 1110000
     },
     {
      "rank": 2,
-     "title": "日本误报9.9级地震",
-     "hot_value": 760000
+     "title": "芒果真的拍了再见朋友",
+     "hot_value": 1100000
     },
     {
      "rank": 3,
      "title": "第140届广交会有哪些新亮点",
-     "hot_value": 640000
+     "hot_value": 1100000
     }
    ]
   },
@@ -68,17 +68,17 @@
     {
      "rank": 1,
      "title": "英雄联盟S16世界赛开赛",
-     "hot_value": 12330000
+     "hot_value": 12320000
     },
     {
      "rank": 2,
      "title": "淡人早秋穿搭",
-     "hot_value": 12100000
+     "hot_value": 12090000
     },
     {
      "rank": 3,
      "title": "中国方案赋能全球算力",
-     "hot_value": 10250000
+     "hot_value": 10650000
     }
    ]
   },
@@ -87,17 +87,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "确保健康中国建设取得决定性进展",
+     "title": "答好“长征三问”坚定必胜信念",
      "hot_value": 7900000
     },
     {
      "rank": 2,
-     "title": "香港烟盒设计 “非常降低欲望”",
+     "title": "9.9级地震是什么概念",
      "hot_value": 7810000
     },
     {
      "rank": 3,
-     "title": "冯远征苦恼招不到一米六几的女演员",
+     "title": "香港烟盒设计 “非常降低欲望”",
      "hot_value": 7710000
     }
    ]
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "长征路上的照相馆 至今仍营业",
-     "hot_value": 2830000
+     "hot_value": 2290000
     },
     {
      "rank": 3,
      "title": "养老服务价格文件发布",
-     "hot_value": 2620000
+     "hot_value": 2080000
     }
    ]
   },
