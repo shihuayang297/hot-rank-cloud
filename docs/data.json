@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-16 23:00:00",
- "total_batches": 728,
+ "updated_at": "2026-10-17 00:00:00",
+ "total_batches": 729,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "重庆狼队战胜深圳DYG KPL",
+     "title": "大范围雨雪将至",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "S16入围赛首日有多离谱",
+     "title": "重庆狼队战胜深圳DYG KPL",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "100T战胜G2 上海冠军赛",
+     "title": "美国重申六代机2028年首飞",
      "hot_value": null
     }
    ]
@@ -48,17 +48,17 @@
     {
      "rank": 1,
      "title": "母亲将大一儿子生活费从4000降至2000",
-     "hot_value": 1260000
+     "hot_value": 1180000
     },
     {
      "rank": 2,
-     "title": "河北卫视靠孙颖莎收视登顶了",
-     "hot_value": 980000
+     "title": "抖音起诉京东员工",
+     "hot_value": 830000
     },
     {
      "rank": 3,
      "title": "中央红军长征路线全览",
-     "hot_value": 700000
+     "hot_value": 710000
     }
    ]
   },
@@ -67,18 +67,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "英雄联盟S16世界赛开赛",
-     "hot_value": 12170000
+     "title": "喀纳斯秋日实况",
+     "hot_value": 12150000
     },
     {
      "rank": 2,
      "title": "CBA新赛季揭幕战上海大胜深圳",
-     "hot_value": 12160000
+     "hot_value": 12140000
     },
     {
      "rank": 3,
      "title": "胜利山上望征途",
-     "hot_value": 11970000
+     "hot_value": 11950000
     }
    ]
   },
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "美国肯德基 2027 年起将改用可口可乐，背后是什么原因？消费者实际感受差别大吗？",
-     "hot_value": 10460000
+     "hot_value": 9180000
     },
     {
      "rank": 2,
      "title": "大厂员工吐槽新来的校招生特别mean，被回复不mean根本过不了面试，真的吗？面试到底在选什么样的人？",
-     "hot_value": 6420000
+     "hot_value": 6820000
     },
     {
      "rank": 3,
      "title": "传国玉玺最后一次可信的出现是什么时候？",
-     "hot_value": 2950000
+     "hot_value": 3760000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "养老服务收费新政将迎来变化",
-     "hot_value": 2470000
+     "hot_value": 2110000
     },
     {
      "rank": 3,
      "title": "冷空气登场 南北方温差可达15℃",
-     "hot_value": 2260000
+     "hot_value": 1910000
     }
    ]
   },
@@ -152,12 +152,12 @@
     },
     {
      "rank": 2,
-     "title": "乌克兰恢复袭击俄炼油厂，特朗普表态",
+     "title": "“他们逃离俄罗斯寻求政治庇护，西方国家又把他们赶了回去”",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "37亿大单，到账为0",
+     "title": "没公开名字的县长，是这场闹剧中不光彩的角色",
      "hot_value": null
     }
    ]
