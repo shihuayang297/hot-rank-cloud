@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-18 05:00:00",
- "total_batches": 754,
+ "updated_at": "2026-10-18 06:00:00",
+ "total_batches": 755,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,12 +27,12 @@
    "items": [
     {
      "rank": 1,
-     "title": "MVK vs FUR S16",
+     "title": "MVK战胜FUR S16",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "小沈阳唐九洲颜安在梅边好惊艳",
+     "title": "BFX战胜WE夺得德杯冠军",
      "hot_value": null
     },
     {
@@ -48,17 +48,17 @@
     {
      "rank": 1,
      "title": "店员称有碘伏顾客磕响头",
-     "hot_value": 190000
+     "hot_value": 250000
     },
     {
      "rank": 2,
      "title": "特斯拉飞行汽车被质疑是噱头",
-     "hot_value": 60000
+     "hot_value": 180000
     },
     {
      "rank": 3,
      "title": "广交会真的太全面了",
-     "hot_value": 60000
+     "hot_value": 140000
     }
    ]
   },
@@ -68,17 +68,17 @@
     {
      "rank": 1,
      "title": "日美将举行大规模联合军演",
-     "hot_value": 12100000
+     "hot_value": 11610000
     },
     {
      "rank": 2,
-     "title": "阿达西的馕真是馕界楷模",
-     "hot_value": 11780000
+     "title": "台风蔷琵路径还有很大变数",
+     "hot_value": 11490000
     },
     {
      "rank": 3,
      "title": "健康中国释放新信号",
-     "hot_value": 11290000
+     "hot_value": 11440000
     }
    ]
   },
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "如何评价DeepSeek V4.1 Flash 1017?",
-     "hot_value": 14410000
+     "hot_value": 8500000
     },
     {
      "rank": 2,
      "title": "英伟达市值 9 天蒸发约 4 万亿元，全球 AI 股集体遭抛售，AI 泡沫是不是要破了？",
-     "hot_value": 4890000
+     "hot_value": 4830000
     },
     {
      "rank": 3,
-     "title": "班主任休产假遭家长投诉质问「一定要生孩子吗」，教师称举报信数量激增，如何看待近几年兴起的校园投诉潮？",
-     "hot_value": 2360000
+     "title": "智界将获独立造车资质，内部人士确认公司计划上市，获独立造车资质意味着什么？对华为和奇瑞有怎样的影响？",
+     "hot_value": 1880000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "国家出手，养老账单要变了",
-     "hot_value": 1950000
+     "hot_value": 1980000
     },
     {
      "rank": 3,
      "title": "长征，永远的追寻",
-     "hot_value": 1740000
+     "hot_value": 1770000
     }
    ]
   },
