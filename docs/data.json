@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-17 23:00:00",
- "total_batches": 752,
+ "updated_at": "2026-10-18 04:00:00",
+ "total_batches": 753,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "BFX战胜WE夺得德杯冠军",
+     "title": "MVK vs FUR S16",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "张雪机车收官战第一回合第10",
+     "title": "英伟达称RTX5090没有停产",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "陶哲轩称数学正进入工业时代",
+     "title": "小沈阳唐九洲颜安在梅边好惊艳",
      "hot_value": null
     }
    ]
@@ -47,18 +47,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "在梅边 夯爆了",
-     "hot_value": 1580000
+     "title": "店员称有碘伏顾客磕响头",
+     "hot_value": 240000
     },
     {
      "rank": 2,
      "title": "杭州大三女孩7个月开20家柠檬奶店",
-     "hot_value": 910000
+     "hot_value": 80000
     },
     {
      "rank": 3,
      "title": "广交会真的太全面了",
-     "hot_value": 770000
+     "hot_value": 80000
     }
    ]
   },
@@ -67,18 +67,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "北京大雨",
-     "hot_value": 12150000
+     "title": "2026德玛西亚杯BFX夺冠",
+     "hot_value": 11250000
     },
     {
      "rank": 2,
      "title": "阿达西的馕真是馕界楷模",
-     "hot_value": 12110000
+     "hot_value": 11150000
     },
     {
      "rank": 3,
      "title": "健康中国释放新信号",
-     "hot_value": 12110000
+     "hot_value": 11120000
     }
    ]
   },
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "如何评价DeepSeek V4.1 Flash 1017?",
-     "hot_value": 35730000
+     "hot_value": 20640000
     },
     {
      "rank": 2,
-     "title": "如何看待《流浪地球3》首次票房预测为48亿？",
-     "hot_value": 7310000
+     "title": "英伟达市值 9 天蒸发约 4 万亿元，全球 AI 股集体遭抛售，AI 泡沫是不是要破了？",
+     "hot_value": 4920000
     },
     {
      "rank": 3,
      "title": "班主任休产假遭家长投诉质问「一定要生孩子吗」，教师称举报信数量激增，如何看待近几年兴起的校园投诉潮？",
-     "hot_value": 6540000
+     "hot_value": 3180000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "国家出手，养老账单要变了",
-     "hot_value": 2110000
+     "hot_value": 1870000
     },
     {
      "rank": 3,
      "title": "长征，永远的追寻",
-     "hot_value": 1900000
+     "hot_value": 1660000
     }
    ]
   },
