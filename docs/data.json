@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-18 23:00:00",
- "total_batches": 772,
+ "updated_at": "2026-10-19 00:00:00",
+ "total_batches": 773,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "北京JDG战胜长沙TES.A KPL",
+     "title": "RTX5080较去年同期价格翻倍",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "大降温来了",
+     "title": "北京JDG战胜长沙TES.A KPL",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "LOUD夺得上海冠军赛冠军",
+     "title": "米勒管泽元评S赛Top20",
      "hot_value": null
     }
    ]
@@ -48,17 +48,17 @@
     {
      "rank": 1,
      "title": "日本出现取消吃饭现象",
-     "hot_value": 1630000
+     "hot_value": 1720000
     },
     {
      "rank": 2,
-     "title": "神父弥撒时被十字架砸中身亡",
-     "hot_value": 890000
+     "title": "白桃星座",
+     "hot_value": 960000
     },
     {
      "rank": 3,
-     "title": "潮涌荆楚",
-     "hot_value": 870000
+     "title": "广交会AI新品热度拉满",
+     "hot_value": 700000
     }
    ]
   },
@@ -68,17 +68,17 @@
     {
      "rank": 1,
      "title": "LOUD战胜VIT夺冠",
-     "hot_value": 12170000
+     "hot_value": 12160000
     },
     {
      "rank": 2,
      "title": "今日重阳节",
-     "hot_value": 11990000
+     "hot_value": 11110000
     },
     {
      "rank": 3,
      "title": "广交会万品联通海内外",
-     "hot_value": 11370000
+     "hot_value": 11060000
     }
    ]
   },
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "法国发生近年来最严重暴力骚乱，约1200人被捕、超150名警察受伤，情况如何？为何此时矛盾进一步激化？",
-     "hot_value": 48220000
+     "hot_value": 52230000
     },
     {
      "rank": 2,
-     "title": "特斯拉市值 5 日蒸发超 6200 亿元，受飞行汽车影响有多大？这次发布新品算是一个好选择吗？",
-     "hot_value": 3730000
+     "title": "如果上帝可以让你免费去瑞士滑雪，去卢浮宫旅游，条件是禁止发朋友圈，禁止让任何人知道此事，你去吗？",
+     "hot_value": 3800000
     },
     {
      "rank": 3,
-     "title": "网传 DeepSeek V4.1 Flash 1017指纹测出 GPT-6 Astra，这是怎么回事？",
-     "hot_value": 3360000
+     "title": "客观来看，贫困生能花三千块治牙吗？为何这会引发热议，和之前的贫困生看演唱会、9.9元咖啡等区别在哪？",
+     "hot_value": 2920000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "江山就是人民，人民就是江山",
-     "hot_value": 2220000
+     "hot_value": 2050000
     },
     {
      "rank": 3,
      "title": "“天空之镜”遇上了火烧云",
-     "hot_value": 2010000
+     "hot_value": 1850000
     }
    ]
   },
@@ -147,17 +147,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "“张雪机车”，双喜临门！",
+     "title": "中国留学生披旭日旗上课，本人鞠躬道歉",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "吴康民辞世，李家超发文哀悼",
+     "title": "欧洲多国爆发示威活动，法国2000多人被捕",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "俄圣彼得堡石油码头遭袭起火！年吞吐量超1250万吨，数据中心也遇袭，2万人断电",
+     "title": "“张雪机车”，双喜临门！",
      "hot_value": null
     }
    ]
