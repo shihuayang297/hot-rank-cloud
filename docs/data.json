@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-18 08:00:00",
- "total_batches": 757,
+ "updated_at": "2026-10-18 09:00:00",
+ "total_batches": 758,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "MVK战胜FUR S16",
+     "title": "猎鹰爆冷无缘决赛",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "英伟达称RTX5090没有停产",
+     "title": "MVK战胜FUR S16",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "小沈阳唐九洲颜安在梅边好惊艳",
+     "title": "英伟达称RTX5090没有停产",
      "hot_value": null
     }
    ]
@@ -47,18 +47,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "特斯拉飞行汽车被质疑是噱头",
-     "hot_value": 1000000
+     "title": "山姆品质暴跌你还敢去吗",
+     "hot_value": 1310000
     },
     {
      "rank": 2,
-     "title": "杭州大三女孩7个月开20家柠檬奶店",
-     "hot_value": 730000
+     "title": "人胖的时候感受不到自己胖",
+     "hot_value": 900000
     },
     {
      "rank": 3,
      "title": "广交会真的太全面了",
-     "hot_value": 560000
+     "hot_value": 680000
     }
    ]
   },
@@ -68,17 +68,17 @@
     {
      "rank": 1,
      "title": "日美将举行大规模联合军演",
-     "hot_value": 12110000
+     "hot_value": 12120000
     },
     {
      "rank": 2,
-     "title": "台风蔷琵路径还有很大变数",
-     "hot_value": 11720000
+     "title": "阿达西的馕真是馕界楷模",
+     "hot_value": 11740000
     },
     {
      "rank": 3,
      "title": "健康中国释放新信号",
-     "hot_value": 11660000
+     "hot_value": 11460000
     }
    ]
   },
@@ -97,7 +97,7 @@
     },
     {
      "rank": 3,
-     "title": "多地试点直升高中",
+     "title": "特斯拉飞行汽车被质疑是噱头",
      "hot_value": 7710000
     }
    ]
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "英伟达市值 9 天蒸发约 4 万亿元，全球 AI 股集体遭抛售，AI 泡沫是不是要破了？",
-     "hot_value": 4720000
+     "hot_value": 5310000
     },
     {
      "rank": 2,
      "title": "智界将获独立造车资质，内部人士确认公司计划上市，获独立造车资质意味着什么？对华为和奇瑞有怎样的影响？",
-     "hot_value": 2620000
+     "hot_value": 3080000
     },
     {
      "rank": 3,
      "title": "如何评价DeepSeek V4.1 Flash 1017?",
-     "hot_value": 1530000
+     "hot_value": 1580000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "解放军4大登陆舰罕见实弹演练",
-     "hot_value": 2370000
+     "hot_value": 2570000
     },
     {
      "rank": 3,
      "title": "全球首个！我国硬核成果上新",
-     "hot_value": 2160000
+     "hot_value": 2360000
     }
    ]
   },
@@ -152,7 +152,7 @@
     },
     {
      "rank": 2,
-     "title": "也门胡塞武装称击落沙特方面一架“阿帕奇”直升机",
+     "title": "美对伊朗发动新一轮军事打击的概率上升",
      "hot_value": null
     },
     {
