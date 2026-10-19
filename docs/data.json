@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-19 20:00:00",
- "total_batches": 793,
+ "updated_at": "2026-10-19 21:00:00",
+ "total_batches": 794,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "小孩SCS总决赛卫冕之路",
+     "title": "T1全员的夺冠Flag",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "MiniMax认领Space Bunny",
+     "title": "锐评S16瑞士轮抽签结果",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "Viper生日Vlog",
+     "title": "UP主和NBA球星比投篮",
      "hot_value": null
     }
    ]
@@ -48,16 +48,16 @@
     {
      "rank": 1,
      "title": "身披旭日旗中国留学生或被开除遣返",
-     "hot_value": 1130000
+     "hot_value": 1170000
     },
     {
      "rank": 2,
-     "title": "绵阳地震",
-     "hot_value": 810000
+     "title": "星巴克 消费入座",
+     "hot_value": 840000
     },
     {
      "rank": 3,
-     "title": "中国经济呈现向新向优发展态势",
+     "title": "民心是红军永远的根据地",
      "hot_value": 670000
     }
    ]
@@ -67,18 +67,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "挑战百分百回头率看秀穿搭",
-     "hot_value": 11350000
+     "title": "南北吃蟹大不同",
+     "hot_value": 11860000
     },
     {
      "rank": 2,
      "title": "天黑了该我在乐园上场了",
-     "hot_value": 11290000
+     "hot_value": 11590000
     },
     {
      "rank": 3,
      "title": "何以中国当惊世界殊",
-     "hot_value": 11140000
+     "hot_value": 11180000
     }
    ]
   },
@@ -87,17 +87,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "“六张网”布局里的中国之治",
+     "title": "把黄旗海保护好",
      "hot_value": 7900000
     },
     {
      "rank": 2,
-     "title": "中纪委连打三“虎”",
+     "title": "人民日报评中国留学生身披旭日旗",
      "hot_value": 7810000
     },
     {
      "rank": 3,
-     "title": "汉庭快捷“欢聚六人房”走红",
+     "title": "微信回应有些功能鸿蒙版还没有",
      "hot_value": 7710000
     }
    ]
@@ -107,18 +107,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "法国千所学校抗议演变成暴力骚乱，背后深层原因是什么？",
-     "hot_value": 20310000
+     "title": "司美格鲁肽在美遭批量起诉，因患者用后患上可致盲的眼病，这真是GLP-1导致的吗？此类药物还有哪些风险？",
+     "hot_value": 11580000
     },
     {
      "rank": 2,
-     "title": "梁文锋和DeepSeek，为什么配得上\"国运级\"三个字？",
-     "hot_value": 19760000
+     "title": "法国千所学校抗议演变成暴力骚乱，背后深层原因是什么？",
+     "hot_value": 8030000
     },
     {
      "rank": 3,
-     "title": "司美格鲁肽在美遭批量起诉，因患者用后患上可致盲的眼病，这真是GLP-1导致的吗？此类药物还有哪些风险？",
-     "hot_value": 4380000
+     "title": "汇源集团发布严正声明，宣布和「汇源」品牌切割、推出新品牌咱家果源，具体怎么回事？会带来哪些市场影响？",
+     "hot_value": 4300000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "76年前的今天 志愿军跨过鸭绿江",
-     "hot_value": 2300000
+     "hot_value": 2370000
     },
     {
      "rank": 3,
      "title": "国产卫星实现三极联网通信",
-     "hot_value": 2090000
+     "hot_value": 2160000
     }
    ]
   },
