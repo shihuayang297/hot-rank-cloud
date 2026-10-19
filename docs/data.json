@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-19 19:00:00",
- "total_batches": 792,
+ "updated_at": "2026-10-19 20:00:00",
+ "total_batches": 793,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "VCTCN八支合作席位是怎么确定的",
+     "title": "小孩SCS总决赛卫冕之路",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "皇萨迎德比 维尼修斯陷迷局",
+     "title": "MiniMax认领Space Bunny",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "B站办了个未来大会",
+     "title": "Viper生日Vlog",
      "hot_value": null
     }
    ]
@@ -47,18 +47,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "仙人跳后报警被强奸多名受害人被抓",
-     "hot_value": 1650000
+     "title": "身披旭日旗中国留学生或被开除遣返",
+     "hot_value": 1130000
     },
     {
      "rank": 2,
-     "title": "马斯克送SpaceX股票",
-     "hot_value": 930000
+     "title": "绵阳地震",
+     "hot_value": 810000
     },
     {
      "rank": 3,
      "title": "中国经济呈现向新向优发展态势",
-     "hot_value": 730000
+     "hot_value": 670000
     }
    ]
   },
@@ -67,18 +67,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "马克龙称骚乱根源是波斯湾冲突",
-     "hot_value": 12000000
+     "title": "挑战百分百回头率看秀穿搭",
+     "hot_value": 11350000
     },
     {
      "rank": 2,
-     "title": "非遗陶瓷有点东西",
-     "hot_value": 11740000
+     "title": "天黑了该我在乐园上场了",
+     "hot_value": 11290000
     },
     {
      "rank": 3,
      "title": "何以中国当惊世界殊",
-     "hot_value": 11490000
+     "hot_value": 11140000
     }
    ]
   },
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "法国千所学校抗议演变成暴力骚乱，背后深层原因是什么？",
-     "hot_value": 23730000
+     "hot_value": 20310000
     },
     {
      "rank": 2,
      "title": "梁文锋和DeepSeek，为什么配得上\"国运级\"三个字？",
-     "hot_value": 18810000
+     "hot_value": 19760000
     },
     {
      "rank": 3,
      "title": "司美格鲁肽在美遭批量起诉，因患者用后患上可致盲的眼病，这真是GLP-1导致的吗？此类药物还有哪些风险？",
-     "hot_value": 3770000
+     "hot_value": 4380000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "76年前的今天 志愿军跨过鸭绿江",
-     "hot_value": 2400000
+     "hot_value": 2300000
     },
     {
      "rank": 3,
      "title": "国产卫星实现三极联网通信",
-     "hot_value": 2200000
+     "hot_value": 2090000
     }
    ]
   },
