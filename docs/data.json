@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-21 02:00:00",
- "total_batches": 813,
+ "updated_at": "2026-10-21 06:00:00",
+ "total_batches": 814,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "英伟达或推迟RTX6060发布时间",
-     "hot_value": null
-    },
-    {
-     "rank": 2,
      "title": "超强台风来了",
      "hot_value": null
     },
     {
+     "rank": 2,
+     "title": "英伟达或推迟RTX6060发布时间",
+     "hot_value": null
+    },
+    {
      "rank": 3,
-     "title": "A2O LITE入驻B站",
+     "title": "重庆狼队战胜深圳DYG KPL",
      "hot_value": null
     }
    ]
@@ -48,17 +48,17 @@
     {
      "rank": 1,
      "title": "香港名媛碎尸案曝关键新证词",
-     "hot_value": 150000
+     "hot_value": 270000
     },
     {
      "rank": 2,
-     "title": "油车电车10年成本账怎么算",
-     "hot_value": 100000
+     "title": "体操世锦赛男团决赛",
+     "hot_value": 200000
     },
     {
      "rank": 3,
      "title": "同心同行长征路",
-     "hot_value": 100000
+     "hot_value": 150000
     }
    ]
   },
@@ -67,18 +67,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "babybay空降hanghang直播间",
-     "hot_value": 11900000
+     "title": "南部战区回应美舰冲闯中国海域",
+     "hot_value": 12100000
     },
     {
      "rank": 2,
-     "title": "南部战区回应美舰冲闯中国海域",
-     "hot_value": 11830000
+     "title": "日美大规模军演引发多地抗议",
+     "hot_value": 12040000
     },
     {
      "rank": 3,
      "title": "同心同行长征路",
-     "hot_value": 11830000
+     "hot_value": 11800000
     }
    ]
   },
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "如何看待2026年10月20日下午疑似国内所有mc相关下载被封禁？",
-     "hot_value": 17360000
+     "hot_value": 6390000
     },
     {
      "rank": 2,
-     "title": "如何看待DeepSeek开源的大规模云服务推理框架 DeepInfer ？",
-     "hot_value": 9940000
+     "title": "怎么看DeepSeek官宣单集群日均吞吐达 155 万亿 Token，单卡每小时收入38 美金？",
+     "hot_value": 3080000
     },
     {
      "rank": 3,
      "title": "工信部提出「坚决防范不合理创新设计和未经充分研发测试验证的汽车产品进入市场」，这会给行业带来哪些转向？",
-     "hot_value": 6840000
+     "hot_value": 2650000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "国标拟新增自动驾驶系统标志灯要求",
-     "hot_value": 2330000
+     "hot_value": 2170000
     },
     {
      "rank": 3,
      "title": "气温将创新低 全国秋裤预警地图",
-     "hot_value": 2130000
+     "hot_value": 1960000
     }
    ]
   },
