@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-24 02:00:00",
- "total_batches": 828,
+ "updated_at": "2026-10-24 05:00:00",
+ "total_batches": 829,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -32,12 +32,12 @@
     },
     {
      "rank": 2,
-     "title": "GEN战胜IG S16",
+     "title": "G2 vs DK S16瑞士轮",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "50系中端显卡价格上涨",
+     "title": "KC战胜AL S16瑞士轮",
      "hot_value": null
     }
    ]
@@ -48,17 +48,17 @@
     {
      "rank": 1,
      "title": "独生女继承2亿遗产1年后遭离婚分产",
-     "hot_value": 1140000
+     "hot_value": 640000
     },
     {
      "rank": 2,
-     "title": "GEN对战iG",
-     "hot_value": 550000
+     "title": "BLG",
+     "hot_value": 300000
     },
     {
      "rank": 3,
-     "title": "西藏巴青地震最新救援情况",
-     "hot_value": 550000
+     "title": "红星照耀青春长征路",
+     "hot_value": 280000
     }
    ]
   },
@@ -68,17 +68,17 @@
     {
      "rank": 1,
      "title": "西藏7.0级地震已致16死76伤",
-     "hot_value": 12140000
+     "hot_value": 12110000
     },
     {
      "rank": 2,
      "title": "IG对阵GEN",
-     "hot_value": 12120000
+     "hot_value": 12110000
     },
     {
      "rank": 3,
      "title": "中国创新指数增长6.4%",
-     "hot_value": 12070000
+     "hot_value": 11940000
     }
    ]
   },
@@ -107,18 +107,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "如何评价莫大「旭日旗事件」涉事学生开除文件已下达，但因涉及隐私法律规定或将不对外公开？",
-     "hot_value": 5280000
+     "title": "如何评价Kimi K3.1？",
+     "hot_value": 2630000
     },
     {
      "rank": 2,
-     "title": "DeepSeek拟新融资1000亿元，腾讯、宁德时代出资最多，这会不会改写国内大模型的竞争格局？",
-     "hot_value": 3030000
+     "title": "Anthropic 科学家称「AGI 若三年内到来读博将失去意义」，如何看待这一观点？",
+     "hot_value": 2310000
     },
     {
      "rank": 3,
-     "title": "一顺风车司机困了让乘客开车，自己睡到目的地还照常收钱，平台最初只赔20元代金券，最后全额退款，合理吗？",
-     "hot_value": 2950000
+     "title": "广州商学院涨租逼走快递网点，又要求老师每天投诉6单，倒逼快递返回学校，如何看待这一操作？暴露什么问题？",
+     "hot_value": 1910000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "加快建设生育友好型社会",
-     "hot_value": 1880000
+     "hot_value": 1740000
     },
     {
      "rank": 3,
      "title": "我国成功发射遥感五十号03星",
-     "hot_value": 1680000
+     "hot_value": 1530000
     }
    ]
   },
