@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-25 01:00:00",
- "total_batches": 834,
+ "updated_at": "2026-10-25 04:00:00",
+ "total_batches": 835,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,7 +27,7 @@
    "items": [
     {
      "rank": 1,
-     "title": "T1战胜LOS S16瑞士轮",
+     "title": "G2战胜LOS S16瑞士轮",
      "hot_value": null
     },
     {
@@ -48,17 +48,17 @@
     {
      "rank": 1,
      "title": "女生不要谈太久的恋爱",
-     "hot_value": 710000
+     "hot_value": 180000
     },
     {
      "rank": 2,
      "title": "小说里为什么没有广东霸总",
-     "hot_value": 310000
+     "hot_value": 80000
     },
     {
      "rank": 3,
-     "title": "以信心汇聚力量以合作破解难题",
-     "hot_value": 250000
+     "title": "渝昆高铁全线铺轨完成",
+     "hot_value": 80000
     }
    ]
   },
@@ -68,17 +68,17 @@
     {
      "rank": 1,
      "title": "中超成都蓉城0:1大连英博",
-     "hot_value": 11320000
+     "hot_value": 11400000
     },
     {
      "rank": 2,
      "title": "Kimi K3.1 Pro来了",
-     "hot_value": 11310000
+     "hot_value": 11370000
     },
     {
      "rank": 3,
      "title": "各类救援车辆星夜驰援西藏地震灾区",
-     "hot_value": 11060000
+     "hot_value": 11100000
     }
    ]
   },
@@ -108,17 +108,17 @@
     {
      "rank": 1,
      "title": "国务院办公厅称要「有效减缓人工智能应用就业替代影响」，释放出什么信号？可能带来哪些实际影响？",
-     "hot_value": 8410000
+     "hot_value": 3010000
     },
     {
      "rank": 2,
      "title": "9 月日产本田在华销量均跌超五成，为何日系车遭遇大幅下滑？",
-     "hot_value": 2930000
+     "hot_value": 2710000
     },
     {
      "rank": 3,
      "title": "为什么腾讯有了QQ这么庞大的用户基础群之后要开发微信呢？",
-     "hot_value": 2670000
+     "hot_value": 2410000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "王沪宁陪同金正恩访问丹东",
-     "hot_value": 2100000
+     "hot_value": 2110000
     },
     {
      "rank": 3,
      "title": "聚焦港澳五年规划",
-     "hot_value": 1890000
+     "hot_value": 1900000
     }
    ]
   },
