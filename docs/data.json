@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-10-26 07:00:00",
- "total_batches": 843,
+ "updated_at": "2026-10-26 11:00:00",
+ "total_batches": 844,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "GEN战胜LYON S16瑞士轮",
+     "title": "中国U17女足小组第一出线",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "7天3个国家3场大选即将开幕",
+     "title": "派大星跳伞是什么梗",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "卫星互联网低轨28组卫星成功发射",
+     "title": "F1安东内利赛季第9胜",
      "hot_value": null
     }
    ]
@@ -47,18 +47,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "姆巴佩绝杀巴萨",
-     "hot_value": 930000
+     "title": "武契奇承认败选",
+     "hot_value": 1070000
     },
     {
      "rank": 2,
-     "title": "iG与TES双双晋级2-1组",
-     "hot_value": 700000
+     "title": "65岁以上人口22365万",
+     "hot_value": 770000
     },
     {
      "rank": 3,
      "title": "金牌闪耀赛场人生不惧残缺",
-     "hot_value": 520000
+     "hot_value": 630000
     }
    ]
   },
@@ -67,18 +67,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "巴萨1:2皇马",
-     "hot_value": 12170000
+     "title": "想和你去看赛里木湖的冬日浪漫",
+     "hot_value": 12140000
     },
     {
      "rank": 2,
      "title": "跟着现在就出发玩转九寨沟",
-     "hot_value": 11370000
+     "hot_value": 12110000
     },
     {
      "rank": 3,
      "title": "引江补汉工程有多硬核",
-     "hot_value": 11110000
+     "hot_value": 11970000
     }
    ]
   },
@@ -87,17 +87,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "长征的路在不断延伸",
+     "title": "总书记为何讲“四知拒金”的故事",
      "hot_value": 7900000
     },
     {
      "rank": 2,
-     "title": "县委书记回应被扔下水：张雪临时起意",
+     "title": "住房公积金更好用了",
      "hot_value": 7810000
     },
     {
      "rank": 3,
-     "title": "一条匿名差评 胖哥俩咋追踪到人的",
+     "title": "美国客户一口气在广州买200套房",
      "hot_value": 7710000
     }
    ]
@@ -107,18 +107,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "S16瑞士轮HLE 0-1 iG，如何评价这场比赛？",
-     "hot_value": 4420000
+     "title": "如何看待周星驰《功夫女足》在烂番茄开分 0 分？",
+     "hot_value": 7610000
     },
     {
      "rank": 2,
-     "title": "大家用 WorkBuddy 都用来干啥？",
-     "hot_value": 2560000
+     "title": "如何看待张雪机车成功挑战摩托车水上漂40公里吉尼斯世界纪录？这对硬件和技术有怎样的要求？",
+     "hot_value": 4450000
     },
     {
      "rank": 3,
      "title": "「赐死七万精锐铁骑」、「送太子和亲」、「冻死兵部尚书」，古偶为什么总是出现逆天剧情？",
-     "hot_value": 2400000
+     "hot_value": 2020000
     }
    ]
   },
@@ -127,18 +127,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "在文化浸润中筑牢“不想腐”的堤坝",
-     "hot_value": 1070000
+     "title": "总书记为何讲“四知拒金”的故事？",
+     "hot_value": 920000
     },
     {
      "rank": 2,
-     "title": "住房公积金更好用了",
-     "hot_value": 2070000
+     "title": "二十届五中全会在北京召开",
+     "hot_value": 2030000
     },
     {
      "rank": 3,
-     "title": "中央气象台停止台风蔷琵编号",
-     "hot_value": 1870000
+     "title": "重磅！任仲平来了",
+     "hot_value": 1830000
     }
    ]
   },
@@ -147,17 +147,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "武契奇承认败选",
+     "title": "党的二十届五中全会今起至29日在北京召开",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "特朗普：美俄乌三方会谈“很快”就会举行",
+     "title": "卢拉逆转小博索纳罗，赢得巴西总统选举，将开启第四个总统任期",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "蔡康永深夜发文：我没有支持过“台独”",
+     "title": "武契奇承认败选",
      "hot_value": null
     }
    ]
