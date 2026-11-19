@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-19 07:00:00",
- "total_batches": 934,
+ "updated_at": "2026-11-19 13:00:00",
+ "total_batches": 935,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -27,17 +27,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "习近平和彭丽媛为来宾举行欢迎宴会",
+     "title": "习近平会见美国总统特朗普",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "习近平迎接美国总统特朗普",
+     "title": "亚太大家庭的成员同在一条船上",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "在APEC读懂一湾锦绣通亚太",
+     "title": "特朗普称期待同习近平普京会晤",
      "hot_value": null
     }
    ]
@@ -47,18 +47,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "APEC会议来宾欢迎宴会大合影",
-     "hot_value": 670000
+     "title": "中美元首深圳会晤",
+     "hot_value": 1070000
     },
     {
      "rank": 2,
-     "title": "特朗普感受到了深圳市民的热情",
-     "hot_value": 580000
+     "title": "后会友期观察室 努力是天赋",
+     "hot_value": 1040000
     },
     {
      "rank": 3,
-     "title": "深圳倡议发布",
-     "hot_value": 390000
+     "title": "一图看中国与APEC经济体双向奔赴",
+     "hot_value": 650000
     }
    ]
   },
@@ -67,18 +67,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "APEC欢迎宴会",
-     "hot_value": 12110000
+     "title": "中美元首在深圳会晤",
+     "hot_value": 11760000
     },
     {
      "rank": 2,
-     "title": "普京到访深圳高校发表演讲",
-     "hot_value": 11830000
+     "title": "2026年APEC领导人非正式会议",
+     "hot_value": 11600000
     },
     {
      "rank": 3,
-     "title": "深圳科创吸引世界目光",
-     "hot_value": 11090000
+     "title": "APEC吸引全球目光",
+     "hot_value": 11570000
     }
    ]
   },
@@ -87,17 +87,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "在大湾区看如何促进亚太共同繁荣",
+     "title": "与时偕行 共创亚太光明未来",
      "hot_value": 7900000
     },
     {
      "rank": 2,
-     "title": "中俄美元首同框",
+     "title": "习近平会见美国总统特朗普",
      "hot_value": 7810000
     },
     {
      "rank": 3,
-     "title": "习近平彭丽媛欢迎与会嘉宾并集体合影",
+     "title": "APEC领导人互相整理围巾",
      "hot_value": 7710000
     }
    ]
@@ -107,18 +107,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "本届深圳APEC会议的意义是什么？",
-     "hot_value": 3660000
+     "title": "中俄美三国元首历史上首次面对面会晤，有哪些意义？为何会选在这个时间点？",
+     "hot_value": 17040000
     },
     {
      "rank": 2,
-     "title": "美国总统特朗普抵达深圳，出席 APEC 深圳峰会，本次迎接仪式有哪些亮点？还有哪些信息值得关注？",
-     "hot_value": 3210000
+     "title": "为什么大家这么关注APEC会议？",
+     "hot_value": 6920000
     },
     {
      "rank": 3,
-     "title": "马斯克确认将前往中国，并缺席纽约DealBook峰会，他选择深圳APEC峰会节点赴华是出于什么考虑？",
-     "hot_value": 2280000
+     "title": "马斯克抵达深圳，缺席纽约DealBook峰会，他选择深圳APEC峰会节点赴华是出于什么考虑？",
+     "hot_value": 6880000
     }
    ]
   },
@@ -127,18 +127,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "习近平迎接美国总统特朗普",
-     "hot_value": 670000
+     "title": "习主席向全球工商界阐释中国机遇新内涵",
+     "hot_value": 680000
     },
     {
      "rank": 2,
-     "title": "习近平和彭丽媛与来宾集体合影",
-     "hot_value": 1620000
+     "title": "习近平同普京、特朗普等集体合影",
+     "hot_value": 1700000
     },
     {
      "rank": 3,
-     "title": "生活中的APEC含量正在上升",
-     "hot_value": 1410000
+     "title": "普京到访深圳高校发表演讲",
+     "hot_value": 1500000
     }
    ]
   },
@@ -147,17 +147,17 @@
    "items": [
     {
      "rank": 1,
-     "title": "“这就是中国排面”",
+     "title": "习近平会见美国总统特朗普",
      "hot_value": null
     },
     {
      "rank": 2,
-     "title": "商务部就实质性完成中韩自贸协定第二阶段谈判有关情况答记者问",
+     "title": "“这是谁？这是我的朋友！”特朗普APEC见普京打趣寒暄，两人握手致意",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "追上特朗普专机，马斯克又来了",
+     "title": "马斯克小儿子表白中国",
      "hot_value": null
     }
    ]
