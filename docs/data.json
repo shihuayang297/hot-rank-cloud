@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-20 22:00:00",
- "total_batches": 939,
+ "updated_at": "2026-11-21 06:00:00",
+ "total_batches": 940,
  "platforms": [
   {
    "name": "60秒看世界",
@@ -32,12 +32,12 @@
     },
     {
      "rank": 2,
-     "title": "DK官宣Doran和Kanavi加入",
+     "title": "UP主解读AI声称证明黎曼猜想",
      "hot_value": null
     },
     {
      "rank": 3,
-     "title": "大漠叔叔被海南警方硬控",
+     "title": "DK官宣Doran和Kanavi加入",
      "hot_value": null
     }
    ]
@@ -47,18 +47,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "青稚MVP",
-     "hot_value": 1180000
+     "title": "后会友期黄焖鸡事件原声视频",
+     "hot_value": 310000
     },
     {
      "rank": 2,
-     "title": "深圳人又开始原装出街了",
-     "hot_value": 840000
+     "title": "DeepSeek付费体验直线上升",
+     "hot_value": 230000
     },
     {
      "rank": 3,
-     "title": "从细节读懂中国带给亚太的确定性",
-     "hot_value": 670000
+     "title": "APEC盛会效应拉满",
+     "hot_value": 210000
     }
    ]
   },
@@ -67,18 +67,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "U17男足首战对阵西班牙",
-     "hot_value": 11810000
+     "title": "U17男足0:5西班牙",
+     "hot_value": 12100000
     },
     {
      "rank": 2,
-     "title": "APEC外宾游深圳邂逅地道美食",
-     "hot_value": 11120000
+     "title": "泰国总理带夫人在深圳吃夜宵",
+     "hot_value": 12100000
     },
     {
      "rank": 3,
      "title": "亚太前沿领域机遇看中国",
-     "hot_value": 11100000
+     "hot_value": 11120000
     }
    ]
   },
@@ -92,7 +92,7 @@
     },
     {
      "rank": 2,
-     "title": "中国最大饺子店要上市了",
+     "title": "“工业母鸡”也被干成白菜价",
      "hot_value": 7810000
     },
     {
@@ -107,18 +107,18 @@
    "items": [
     {
      "rank": 1,
-     "title": "如何看待马斯克离开深圳，突访上海？",
-     "hot_value": 16900000
+     "title": "数学家称与 AI 合作证明了黎曼猜想，证明稿超 25 万页，黎曼猜想真的被解决了吗？",
+     "hot_value": 54430000
     },
     {
      "rank": 2,
-     "title": "中俄美和平宣言为何特别强调国际刑事法院不得滥用管辖权？具体针对的是什么？这一表述有何现实背景？",
-     "hot_value": 8780000
+     "title": "神秘模型 Gestalt 横空出世，设计基准上大幅超越 Claude、GPT，这款模型到底是啥来历？",
+     "hot_value": 2680000
     },
     {
      "rank": 3,
      "title": "王毅介绍中俄美元首会晤情况，称这是一次「和平峰会」，是载入史册的标志性事件，传递出了哪些信号？",
-     "hot_value": 6740000
+     "hot_value": 2330000
     }
    ]
   },
@@ -133,12 +133,12 @@
     {
      "rank": 2,
      "title": "深圳展望是APEC中国年最重要成果",
-     "hot_value": 2150000
+     "hot_value": 1860000
     },
     {
      "rank": 3,
      "title": "看五十年的中国为什么要来深圳",
-     "hot_value": 1950000
+     "hot_value": 1650000
     }
    ]
   },
@@ -147,7 +147,7 @@
    "items": [
     {
      "rank": 1,
-     "title": "顺德大厨参与APEC国宴餐饮保障：每个团队负责一道菜，我们团队主要负责“豉油清蒸星斑”，提前一个月就开始准备",
+     "title": "光刻机巨头：就算我们切断维护服务，中国晶圆厂仍能正常运转",
      "hot_value": null
     },
     {
@@ -157,7 +157,7 @@
     },
     {
      "rank": 3,
-     "title": "墨西哥总统辛鲍姆回国后，发文感谢中方女保镖",
+     "title": "2000年历史重演，反弹之后才是真正的崩跌？",
      "hot_value": null
     }
    ]
